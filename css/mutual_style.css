@@ -1,3 +1,22 @@
+/* Typografi */
+
 h1 {
   font-family: "Bebas Neue";
+  font-size: 70px;
+}
+h2 {
+  font-family: "Bebas Neue";
+  font-size: 30px;
+}
+p,
+a,
+footer {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/* Main */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
