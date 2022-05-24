@@ -27,12 +27,18 @@ justify-content: space-around;
 
 .flex_col2 {
   padding-inline: 20px 20px;
-  max-width: 50ch;
+  max-width: 60ch;
 }
+
 
 
 .aabning, 
 .aabning p, 
 .aabning li {
+  text-align: center;
+}
+
+article h2 {
+  margin-bottom: -10px;
   text-align: center;
 }
