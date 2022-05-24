@@ -1,16 +1,15 @@
 
-/* #overskrift {
+#overskrift {
 display: grid;
     place-content: center center;
-
-    width: 100%;
+width: 100%;
     height: clamp(200px, 30vw, 70vh);
     background-image: url(/img/testimg.png);
     max-width: none;
     background-size: cover;
     background-position: 50% 20%;
     
-  } */
+  }
 
   #overskrift h1,
   #overskrift p {
