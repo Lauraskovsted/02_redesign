@@ -20,7 +20,7 @@ p {
 /* flex-col */
 .container {
   display: flex;
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .container,
@@ -37,5 +37,24 @@ h2 {
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* border-grid */
+
+.border {
+  border-bottom: #774e77 solid 1px;
+  border-left: #774e77 solid 1px;
+  top: 50%;
+  bottom: 0;
+}
+
+section {
+  border-bottom: #774e77 solid 1px;
+  border-left: #774e77 solid 1px;
+}
+
+.white_element {
   background-color: white;
+  margin-top: 40px;
+  padding: 10px;
 }
