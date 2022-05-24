@@ -1,7 +1,39 @@
 
 nav {
-  
+display: grid;
+grid-template-columns: 1fr 1200px 1fr;
+background-color: white;
 }
+
+.index {
+
+  background-image: url(/svg/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  grid-column: 2;
+  list-style: none;
+  overflow-x: auto;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
 
 /* overskrift */
 #overskrift h1,
@@ -48,12 +80,15 @@ cite {
   text-align: center;
 }
 
+body {
+  margin: 0 auto;
+}
 /* Main */
 main {
   max-width: 1200px;
   margin: 0 auto;
 }
-header,
+
 footer {
   padding-block: 20px;
 }
