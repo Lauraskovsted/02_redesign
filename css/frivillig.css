@@ -37,12 +37,10 @@ h2 {
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
 }
 
 /* border-grid */
-
-.border {
-}
 
 section {
   border-bottom: #774e77 solid 1px;
