@@ -18,7 +18,8 @@ h2 {
 }
 p,
 a,
-footer {
+footer,
+li {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
   text-align: justify;

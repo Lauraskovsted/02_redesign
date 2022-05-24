@@ -9,5 +9,23 @@ display: grid;
     max-width: none;
     background-size: cover;
     background-position: 50% 20%;
+    
   }
 
+  #overskrift h1,
+  #overskrift p {
+    color: white;
+  }
+  
+  body {
+    background-color: blueviolet;
+  }
+
+  .container {
+    display: flex;
+    background-color: white;
+  }
+
+.flex_col {
+  padding: 20px;
+}
