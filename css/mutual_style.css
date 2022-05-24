@@ -6,6 +6,20 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+#overskrift {
+  display: grid;
+      place-content: center center;
+  
+      width: 100%;
+      height: clamp(200px, 30vw, 70vh);
+      background-image: url(/img/testimg.png);
+      max-width: none;
+      background-size: cover;
+      background-position: 50% 20%;
+      
+    }
+/*  */
+
 
 h1 {
   font-family: "Bebas Neue";
