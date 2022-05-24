@@ -43,9 +43,9 @@ h2 {
 
 .border {
   border-bottom: #774e77 solid 1px;
-  border-left: #774e77 solid 1px;
-  top: 50%;
-  bottom: 0;
+  border-left-width: 30%;
+  display: block;
+  margin: 0 auto;
 }
 
 section {
