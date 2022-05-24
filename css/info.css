@@ -1,4 +1,4 @@
-
+/* Header */
 #overskrift {
 display: grid;
     place-content: center center;
@@ -16,9 +16,6 @@ width: 100%;
     color: white;
   }
   
-  body {
-    background-color: blueviolet;
-  }
 
   .container {
 display: flex;
