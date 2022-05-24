@@ -11,3 +11,25 @@
 p {
   text-align: center;
 }
+
+/* flex-col */
+.container {
+  display: flex;
+}
+
+.container,
+article,
+h2 {
+  text-align: center;
+}
+
+.flex_col {
+  padding: 20px;
+}
+
+/* Grid */
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
