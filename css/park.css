@@ -1,0 +1,83 @@
+.container1 {
+  padding: 20px;
+}
+
+.flex_col1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 20px;
+  gap: 70px;
+  padding-inline: 60px;
+  text-align: left;
+}
+
+.container2 {
+}
+
+.flex_col2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 20px;
+  gap: 70px;
+  padding-inline: 60px;
+  text-align: left;
+  grid-template-rows: 1 fr, 1fr;
+}
+
+/* KNAP FUNKTION */
+body.dark {
+  background: orange;
+  color: brown;
+}
+.header.dark {
+  background: brown;
+  color: orange;
+}
+/* KNAP */
+.mode {
+  background: #8d6e4e;
+  border-color: #e0bb88;
+  border-style: inset;
+  color: #e0bb88;
+  transition: 1s;
+}
+.mode:hover {
+  background: #8d6e4e;
+}
+
+.dark .mode:hover {
+  background: hsl(0, 75%, 65%);
+}
+.dark .mode {
+  background: hsl(255, 75%, 60%);
+}
+.dark .header {
+  background: orange;
+}
+.dark .footer {
+  background: orange;
+}
+.dark p {
+  background: rgb(38, 163, 123);
+}
+.dark small {
+  background: rgb(179, 65, 49);
+}
+.dark h1 {
+  background: rgb(76, 98, 196);
+}
+.dark section {
+  background: rgb(223, 125, 112);
+}
+.dark article {
+  background: rgb(215, 24, 88);
+}
+.dark figure {
+  background: rgb(215, 24, 88);
+}
+.dark .body {
+  background: orange;
+}
+.dark.mode:hover {
+  background: rgb(65, 42, 165);
+}
