@@ -26,6 +26,10 @@ h1 {
   background-image: url(/img/test.jpg);
   background-size: cover;
 }
+.img4 {
+  background-image: url(/img/test.jpg);
+  max-width: 500px;
+}
 
 .baggrund2 {
   background-color: #71599f;
