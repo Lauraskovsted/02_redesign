@@ -1,12 +1,20 @@
 
 nav {
 display: grid;
-grid-template-columns: 1fr 1200px 1fr;
+grid-template-columns: auto  auto;
 background-color: white;
 }
 
-.index {
+@media (min-width: 1800px) {
+  nav {
+   
+    grid-template-columns: auto minmax(auto, 1200px) auto;
+   
+    }
+}
 
+
+.index {
   background-image: url(/svg/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
