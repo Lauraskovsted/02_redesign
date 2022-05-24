@@ -22,10 +22,18 @@ display: grid;
   }
 
   .container {
-    display: flex;
+display: flex;
+
     background-color: white;
   }
 
 .flex_col {
   padding: 20px;
+}
+
+p {
+  text-align: left;
+}
+.aabning {
+  text-align: center;
 }
