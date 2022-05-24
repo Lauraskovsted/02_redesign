@@ -118,5 +118,8 @@ main {
 }
 
 footer {
+  background-color: white;
   padding-block: 20px;
+  text-align: center;
+  
 }
