@@ -16,17 +16,13 @@ background-color: white;
 
 nav ul {
   display: flex;
-  align-items: flex-start;
-  padding: 10px;
+
   padding-left: 0;
   padding-right: 0;
-  grid-column: 2;
+
   list-style: none;
- 
-overflow-x: auto;
   justify-content: space-around;
   color: black;
-
 }
 
 nav a {
@@ -67,7 +63,7 @@ a,
 footer,
 li {
   font-family: Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 2vh;
   text-align: justify;
 }
 cite {
