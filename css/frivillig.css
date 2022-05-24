@@ -42,10 +42,6 @@ h2 {
 /* border-grid */
 
 .border {
-  border-bottom: #774e77 solid 1px;
-  border-left-width: 30%;
-  display: block;
-  margin: 0 auto;
 }
 
 section {
