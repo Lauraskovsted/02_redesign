@@ -1,1 +1,13 @@
 /* Header */
+#overskrift {
+  place-content: center;
+  background-image: url("/img/testimg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#overskrift,
+p {
+  text-align: center;
+}
