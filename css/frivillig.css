@@ -5,10 +5,15 @@ body {
 
 /* Header */
 #overskrift {
-  place-content: center;
-  background-image: url("/img/testimg.png");
+  display: grid;
+  place-content: center center;
+
+  width: 100%;
+  height: clamp(200px, 30vw, 70vh);
+  background-image: url(/img/testimg.png);
+  max-width: none;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: 50% 20%;
   color: white;
 }
 
