@@ -1,28 +1,51 @@
-nav {
-display: grid;
-grid-template-columns: auto  auto;
-background-color: white;
+.index img {
+display: flex;
+width: 300px;
+padding-inline: 20px 20px;
+
+align-self: center;
+}
+.oversigt {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+padding-left: 0;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Bebas Neue";
+  font-size: 1.6rem;
 }
 
-@media (min-width: 1800px) {
-  nav {
-   
-    grid-template-columns: auto minmax(auto, 1200px) auto;
-   
-    }
+ nav {
+   background-color: white;
 }
 
-
-.index {
-  background-image: url(/svg/logo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+@media (min-width: 650px) {
+  .oversigt {
+    flex-direction: row;
+  }
+  
 }
 
+@media (min-width: 1000px) {
+  .oversigt {
+    display: grid;
+    
+  }
+  
+}
+
+/*
 nav ul {
   display: flex;
-
+flex-direction: column;
   padding-left: 0;
   padding-right: 0;
 
@@ -31,13 +54,21 @@ nav ul {
 
 }
 
-nav a {
-  text-decoration: none;
-  color: black;
-  font-family: "Bebas Neue";
-  font-size: 1.6rem;
-}
 
+@media (min-width: 1000px) {
+  nav {
+   display: grid;
+    grid-template-columns: 300px  auto;
+   
+    }
+}
+@media (min-width: 1800px) {
+  nav {
+   
+    grid-template-columns: auto minmax(auto, 1200px) auto;
+   
+    }
+} */
 /* overskrift */
 #overskrift h1,
 #overskrift p {
@@ -64,7 +95,6 @@ footer,
 li {
   font-family: Helvetica, sans-serif;
   font-size: 2vh;
-  text-align: justify;
 }
 cite {
   font-family: "Bebas Neue";
