@@ -1,5 +1,16 @@
+#overskrift {
+  background-image: url();
+  background-size: cover;
+  height: fit-content;
+}
+
+.baggrund2 {
+  background-color: #71599f;
+  margin: 70px;
+}
+
 .container1 {
-  padding: 20px;
+  padding-inline: 20px;
 }
 
 .flex_col1 {
@@ -12,6 +23,8 @@
 }
 
 .container2 {
+  background-image: url();
+  background-size: cover;
 }
 
 .flex_col2 {
