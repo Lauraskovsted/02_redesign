@@ -1,3 +1,7 @@
+body {
+  background-image: url(/svg/ide.svg);
+}
+
 /* Header */
 #overskrift {
   display: grid;
@@ -38,6 +42,8 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10px;
+  background-color: #774e77;
+  border-radius: 10px;
 }
 
 /* border-grid */
