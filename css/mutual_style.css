@@ -1,9 +1,11 @@
 .index img {
-display: flex;
-width: 300px;
-padding-inline: 20px 20px;
 
-align-self: center;
+min-width: 300px;
+max-width: 400px;
+
+
+
+
 }
 .oversigt {
   display: flex;
@@ -34,10 +36,12 @@ nav a {
   
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1500px) {
   .oversigt {
-    justify-content: ;
-    
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 300px) 1fr;
+  text-align: center;
+  justify-content: center;
   }
   
 }
@@ -94,7 +98,8 @@ a,
 footer,
 li {
   font-family: Helvetica, sans-serif;
-  font-size: 2vh;
+  font-size: 16px;
+  
 }
 cite {
   font-family: "Bebas Neue";
