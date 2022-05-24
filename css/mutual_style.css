@@ -1,17 +1,14 @@
-
 nav {
-display: grid;
-grid-template-columns: 1fr 1200px 1fr;
-background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1200px 1fr;
+  background-color: white;
 }
 
 .index {
-
   background-image: url(/svg/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-
 }
 
 nav ul {
@@ -22,25 +19,9 @@ nav ul {
   padding-right: 0;
   grid-column: 2;
   list-style: none;
- 
-overflow-x: auto;
+  overflow-x: auto;
   justify-content: space-around;
-  color: black;
-
 }
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-family: "Bebas Neue";
-  font-size: 1.6rem;
-}
-
-
-
-
-
-
 
 /* overskrift */
 #overskrift h1,
