@@ -22,12 +22,19 @@ nav ul {
   padding-right: 0;
   grid-column: 2;
   list-style: none;
-  overflow-x: auto;
+ 
+overflow-x: auto;
   justify-content: space-around;
+  color: black;
+
 }
 
-
-
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Bebas Neue";
+  font-size: 1.6rem;
+}
 
 
 
