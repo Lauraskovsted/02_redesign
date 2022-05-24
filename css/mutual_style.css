@@ -1,4 +1,11 @@
 /* Typografi */
+/* overskrift */
+#overskrift h1,
+#overskrift p {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 h1 {
   font-family: "Bebas Neue";
@@ -14,10 +21,20 @@ a,
 footer {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
+  text-align: justify;
+}
+cite {
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  text-align: center;
 }
 
 /* Main */
 main {
   max-width: 1200px;
   margin: 0 auto;
+}
+header,
+footer {
+  padding-block: 20px;
 }
