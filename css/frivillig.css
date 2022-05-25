@@ -1,8 +1,16 @@
+/* body */
+body {
+  background-image: url(/svg/ide.svg);
+  height: 1900px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
 /* Header */
 #overskrift {
   display: grid;
   place-content: center center;
-
   width: 100%;
   height: clamp(200px, 30vw, 70vh);
   background-image: url(/img/testimg.png);
@@ -16,8 +24,13 @@
 .container {
   display: flex;
   margin-top: 40px;
-  background-image: url(/svg/ide.svg);
+  /* background-image: url(/svg/ide.svg); */
   color: white;
+  flex: 2;
+}
+
+.flex_col img {
+  max-width: 100%;
 }
 
 .flex_col,
