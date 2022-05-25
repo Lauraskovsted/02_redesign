@@ -35,11 +35,16 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10px;
-  color: white;
+  /* color: white; */
 }
 
 .center {
   text-align: center;
+  color: black;
+}
+
+.color {
+  color: black;
 }
 
 /* border-grid */
@@ -57,7 +62,6 @@ section {
 
 hr {
   width: 230px;
-
   margin-top: -25px;
   color: white;
 }
@@ -75,7 +79,8 @@ hr {
 }
 
 .white_element {
-  background-image: url(/svg/ide.svg);
+  /* background-image: url(/svg/ide.svg); */
+  background-color: white;
   margin-top: 40px;
   padding: 10px;
   color: white;
