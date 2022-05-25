@@ -1,125 +1,133 @@
-#overskrift {
-  background-size: 100%;
-  height: 400px;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  gap: 10px;
-}
-h1 {
-  position: absolute;
-  text-align: center;
-  top: 340px;
-  left: 520px;
-}
-
-.img1 {
-  background-image: url(/img/test.jpg);
-  background-size: cover;
-}
-.img2 {
-  background-image: url(/img/test.jpg);
-  background-size: cover;
-}
-.img3 {
-  background-image: url(/img/test.jpg);
-  background-size: cover;
-}
-.img4 {
-  background-image: url(/img/test.jpg);
-  max-width: 500px;
-}
-
-.baggrund2 {
-  background-color: #71599f;
-  margin: 0;
-  height: 80px;
-}
-
-.container1 {
-  margin-block: 50px;
-}
-
-.flex_col1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-inline: 20px;
-  gap: 70px;
-  padding-inline: 60px;
-  text-align: left;
-}
-
-.container2 {
-  background-image: url(/img/test.jpg);
-  background-size: cover;
-  margin: 0;
-  padding-block: 60px;
+/* MOBIL */
+@media (max-width: 600px) {
+  .main,
+  .flex_col1,
+  .flex_col2,
+  img {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  p,
+  h1,
+  h2 {
+    padding-inline: 30px;
+    color: white;
+  }
+  #overskrift {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    gap: 5px;
+    margin: 0;
+    height: 300px;
+  }
+  .img1 {
+    background-image: url(/img/testimg.png);
+    grid-column: 1/2;
+    grid-row: 1;
+    height: 200px;
+  }
+  .img2 {
+    background-image: url(/img/testimg.png);
+    grid-column: 2/3;
+    grid-row: 1;
+    height: 200px;
+  }
+  .img3 {
+    background-image: url(/img/testimg.png);
+    grid-column: 3/4;
+    grid-row: 1;
+    height: 200px;
+  }
+  .BP {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+  }
+  .img4 {
+    background-image: url(/img/testimg.png);
+    max-width: 600px;
+  }
 }
 
-.flex_col2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+/* STORSKÆRM */
+@media (min-width: 600px) {
+  #overskrift {
+    background-size: 100%;
+    height: 400px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    height: 600px;
+  }
+  h1 {
+    position: absolute;
+    text-align: justify;
+    color: white;
+    font-size: 5rem;
+  }
 
-  gap: 70px;
-  padding-inline: 60px;
-  text-align: left;
-}
+  h2 {
+    color: white;
+    font-style: "Bebas Neue";
+    font-size: 30px;
+  }
+  p {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  .img1 {
+    background-image: url(/img/testimg.png);
+    background-size: cover;
+  }
+  .img2 {
+    background-image: url(/img/testimg.png);
+    background-size: cover;
+  }
+  .img3 {
+    background-image: url(/img/testimg.png);
+    background-size: cover;
+  }
+  .img4 {
+    background-image: url(/img/testimg.png);
+    max-width: 500px;
+  }
 
-/* KNAP FUNKTION */
-body.dark {
-  background: orange;
-  color: brown;
-}
-.header.dark {
-  background: brown;
-  color: orange;
-}
-/* KNAP */
-.mode {
-  background: #8d6e4e;
-  border-color: #e0bb88;
-  border-style: inset;
-  color: #e0bb88;
-  transition: 1s;
-}
-.mode:hover {
-  background: #8d6e4e;
-}
+  .container1 {
+    margin-block: 50px;
+  }
 
-.dark .mode:hover {
-  background: hsl(0, 75%, 65%);
-}
-.dark .mode {
-  background: hsl(255, 75%, 60%);
-}
-.dark .header {
-  background: orange;
-}
-.dark .footer {
-  background: orange;
-}
-.dark p {
-  background: rgb(38, 163, 123);
-}
-.dark small {
-  background: rgb(179, 65, 49);
-}
-.dark h1 {
-  background: rgb(76, 98, 196);
-}
-.dark section {
-  background: rgb(223, 125, 112);
-}
-.dark article {
-  background: rgb(215, 24, 88);
-}
-.dark figure {
-  background: rgb(215, 24, 88);
-}
-.dark .body {
-  background: orange;
-}
-.dark.mode:hover {
-  background: rgb(65, 42, 165);
+  .flex_col1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 20px;
+    gap: 70px;
+    padding-inline: 60px;
+    text-align: left;
+  }
+
+  .container2 {
+    background-image: url(/img/testimg.png);
+    background-size: cover;
+    margin: 0;
+    padding-block: 60px;
+    margin-block-end: 50px;
+  }
+
+  .flex_col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+    padding-inline: 60px;
+    text-align: left;
+  }
 }
