@@ -17,19 +17,27 @@
   <body>
     <header>
       <nav>
-        <ul class="oversigt">
-          <li><a class="index" href="index.html"><img src="/svg/logo.svg" alt="logo"></a></li>
+        <input id="menu_toggle" type="checkbox" />
+        <label class="menu_btn" for="menu_toggle">
+          <span></span>
+        </label>
+        <ul class="menu_box">
           <li>
-            <a href="event.html">Events</a>
+            <a class="menu_item" href="index.html"
+              ><img src="/svg/logo.svg" alt="logo"
+            /></a>
           </li>
           <li>
-            <a href="park.html">BaNanna Park</a>
+            <a class="menu_item" href="event.html">Events</a>
           </li>
           <li>
-            <a href="info.html">Info</a>
+            <a class="menu_item" href="park.html">BaNanna Park</a>
           </li>
           <li>
-            <a href="frivillig.html">Bliv frivillig</a>
+            <a class="menu_item" href="info.html">Info</a>
+          </li>
+          <li>
+            <a class="menu_item" href="frivillig.html">Bliv frivillig</a>
           </li>
         </ul>
       </nav>
