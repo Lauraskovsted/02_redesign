@@ -1,22 +1,16 @@
 .index img {
-
-min-width: 300px;
-max-width: 400px;
-
-
-
-
+  min-width: 300px;
+  max-width: 400px;
 }
 .oversigt {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-padding-left: 0;
+  padding-left: 0;
   justify-content: space-around;
   align-items: center;
   list-style: none;
   margin: 0;
-  
 }
 nav a {
   text-decoration: none;
@@ -25,25 +19,23 @@ nav a {
   font-size: 1.6rem;
 }
 
- nav {
-   background-color: white;
+nav {
+  background-color: white;
 }
 
 @media (min-width: 650px) {
   .oversigt {
     flex-direction: row;
   }
-  
 }
 
 @media (min-width: 1500px) {
   .oversigt {
     display: grid;
     grid-template-columns: 1fr repeat(4, 300px) 1fr;
-  text-align: center;
-  justify-content: center;
+    text-align: center;
+    justify-content: center;
   }
-  
 }
 
 /*
@@ -99,7 +91,11 @@ footer,
 li {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
-  
+}
+
+/* li 40px padding fejl */
+li {
+  padding-left: 0;
 }
 cite {
   font-family: "Bebas Neue";
@@ -121,5 +117,4 @@ footer {
   background-color: white;
   padding-block: 20px;
   text-align: center;
-  
 }
