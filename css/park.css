@@ -59,19 +59,18 @@
 @media (min-width: 600px) {
   #overskrift {
     background-size: 100%;
-    height: 400px;
+    height: 300px;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 10px;
+    gap: 5px;
     height: 600px;
   }
   h1 {
-    position: absolute;
-    text-align: justify;
     color: white;
     font-size: 5rem;
+    grid-column: 1 / span 3;
   }
 
   h2 {
@@ -87,18 +86,23 @@
   .img1 {
     background-image: url(/img/testimg.png);
     background-size: cover;
+    background-position: 0% 0%;
   }
   .img2 {
     background-image: url(/img/testimg.png);
     background-size: cover;
+    background-position: 80% 0%;
   }
   .img3 {
     background-image: url(/img/testimg.png);
     background-size: cover;
+    background-position: 100% 0%;
   }
   .img4 {
     background-image: url(/img/testimg.png);
-    max-width: 500px;
+    max-width: 495px;
+    border: 5px white;
+    border-style: solid;
   }
 
   .container1 {
