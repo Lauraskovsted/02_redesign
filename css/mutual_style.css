@@ -21,7 +21,7 @@ nav a {
 }
 
 nav {
-  background-color: white;
+  background-color: rgb(225, 194, 173);
 }
 
 @media (min-width: 650px) {

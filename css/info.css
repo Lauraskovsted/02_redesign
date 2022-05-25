@@ -10,15 +10,32 @@
   background-position: 50% 20%;
   color: white;
 }
+body {
+  margin: 0 auto;
+  background: linear-gradient(
+    50deg,
+    rgb(225, 194, 173) 55%,
+
+    rgb(177, 157, 143) 55%
+  );
+}
 
 .container,
 .container2 {
   display: flex;
   justify-content: space-around;
-  background-color: white;
+
   margin-top: 40px;
   flex-wrap: wrap;
 }
+
+.container {
+  background-color: #7e4aac;
+}
+.container2 {
+  background-color: #550055;
+}
+
 @media (min-width: 1200px) {
   #overskrift {
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
@@ -40,10 +57,12 @@
 }
 .flex_col {
   padding-inline: 20px 20px;
+  color: white;
 }
 
 .flex_col2 {
   padding-inline: 20px 20px;
+  color: white;
 }
 
 .aabning,
