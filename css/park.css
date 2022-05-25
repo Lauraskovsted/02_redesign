@@ -1,3 +1,4 @@
+/* MOBIL */
 @media (max-width: 600px) {
   .main,
   .flex_col1,
@@ -54,6 +55,7 @@
   }
 }
 
+/* STORSKÆRM */
 @media (min-width: 600px) {
   #overskrift {
     background-size: 100%;
@@ -128,62 +130,4 @@
     padding-inline: 60px;
     text-align: left;
   }
-}
-
-/* KNAP FUNKTION */
-body.dark {
-  background: orange;
-  color: brown;
-}
-.header.dark {
-  background: brown;
-  color: orange;
-}
-/* KNAP */
-.mode {
-  background: #8d6e4e;
-  border-color: #e0bb88;
-  border-style: inset;
-  color: #e0bb88;
-  transition: 1s;
-}
-.mode:hover {
-  background: #8d6e4e;
-}
-
-.dark .mode:hover {
-  background: hsl(0, 75%, 65%);
-}
-.dark .mode {
-  background: hsl(255, 75%, 60%);
-}
-.dark .header {
-  background: orange;
-}
-.dark .footer {
-  background: orange;
-}
-.dark p {
-  background: rgb(38, 163, 123);
-}
-.dark small {
-  background: rgb(179, 65, 49);
-}
-.dark h1 {
-  background: rgb(76, 98, 196);
-}
-.dark section {
-  background: rgb(223, 125, 112);
-}
-.dark article {
-  background: rgb(215, 24, 88);
-}
-.dark figure {
-  background: rgb(215, 24, 88);
-}
-.dark .body {
-  background: orange;
-}
-.dark.mode:hover {
-  background: rgb(65, 42, 165);
 }
