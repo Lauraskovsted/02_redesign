@@ -24,9 +24,10 @@ body {
 .container {
   display: flex;
   margin-top: 40px;
+  padding: 10px 10px 10px 0px;
   /* background-image: url(/svg/ide.svg); */
   color: white;
-  flex: 2;
+  flex: 3;
 }
 
 .flex_col img {
@@ -39,8 +40,9 @@ h2 {
 }
 
 .flex_col {
-  padding: 20px;
+  padding: 30px;
   text-align: left;
+  flex: 1;
 }
 
 /* Grid */
@@ -53,19 +55,20 @@ h2 {
 
 .center {
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .color {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 /* border-grid */
 
 .lilla {
-  background-color: #4e224e;
+  background-color: #eb88d9;
   padding: 40px;
   margin: 55px 55px 55px 55px;
+  margin-bottom: 50px;
   border-radius: 10px;
 }
 
@@ -93,7 +96,7 @@ hr {
 
 .white_element {
   /* background-image: url(/svg/ide.svg); */
-  background-color: white;
+  /* background-color: white; */
   margin-top: 40px;
   padding: 10px;
   color: white;
