@@ -63,7 +63,7 @@
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 2fr;
     gap: 5px;
     height: 600px;
   }
@@ -71,6 +71,9 @@
     color: white;
     font-size: 5rem;
     grid-column: 1 / span 3;
+    grid-row: 2;
+    display: grid;
+    place-content: center;
   }
 
   h2 {
@@ -87,17 +90,21 @@
     background-image: url(/img/testimg.png);
     background-size: cover;
     background-position: 0% 0%;
+    clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 5% 87%);
   }
   .img2 {
     background-image: url(/img/testimg.png);
     background-size: cover;
     background-position: 80% 0%;
+    clip-path: polygon(0px 0px, 100% 0%, 100% 83%, 0% 100%);
   }
   .img3 {
     background-image: url(/img/testimg.png);
     background-size: cover;
     background-position: 100% 0%;
+    clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 83%);
   }
+
   .img4 {
     background-image: url(/img/testimg.png);
     max-width: 495px;
@@ -124,6 +131,7 @@
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
+    clip-path: polygon(0 0, 100% 11%, 95% 90%, 3% 100%);
   }
 
   .flex_col2 {
