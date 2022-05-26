@@ -1,10 +1,6 @@
 /* body */
 body {
-  background-image: url(/svg/ide.svg);
-  height: 1900px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  background-color: white;
 }
 
 /* Header */
@@ -23,11 +19,16 @@ body {
 /* flex-col */
 .container {
   display: flex;
-  margin-top: 40px;
-  padding: 10px 10px 10px 0px;
-  /* background-image: url(/svg/ide.svg); */
+  padding: 10px 250px 50px 250px;
+  border-bottom: 30px;
+  margin-left: -264px;
+  margin-right: -264px;
+  background-image: url(/svg/ide.svg);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
   color: white;
   flex: 3;
+  clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%);
 }
 
 .flex_col img {
@@ -41,6 +42,7 @@ h2 {
 
 .flex_col {
   padding: 30px;
+  padding-bottom: 60px;
   text-align: left;
   flex: 1;
 }
@@ -69,7 +71,7 @@ h2 {
   padding: 40px;
   margin: 55px 55px 55px 55px;
   margin-bottom: 50px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 section {
@@ -95,9 +97,16 @@ hr {
 }
 
 .white_element {
-  /* background-image: url(/svg/ide.svg); */
-  /* background-color: white; */
-  margin-top: 40px;
-  padding: 10px;
+  background-image: url(/svg/ide.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  margin-right: -264px;
+  margin-left: -264px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding: 90px 250px 70px 250px;
   color: white;
+  background-color: aquamarine;
+  clip-path: polygon(0 100%, 0 15%, 100% 0, 100% 100%);
 }
