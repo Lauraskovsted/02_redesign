@@ -174,4 +174,13 @@ p {
 }
 
 @media (min-width: 600px) {
+  #splash {
+    background-size: 100%;
+    width: auto;
+    height: 800px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center center;
+  }
 }
