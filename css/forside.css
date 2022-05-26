@@ -94,21 +94,83 @@ footer {
 .menu_item:hover {
   text-decoration: line-through 2px;
 }
+#splash {
+  display: grid;
+  place-content: center center;
+  width: 100%;
+  height: clamp(400px, 30vw, 70vh);
+  background-image: url(/img/testimg.png);
+  max-width: none;
+  background-size: cover;
+  color: white;
+}
 
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
-  padding: 20px;
+
   margin: 0;
-  margin-bottom: 30px;
 }
 p,
 h1,
 h2,
-cite {
+figcaption {
   padding-inline: 30px;
   color: white;
+}
+cite {
+  display: flex;
+  justify-content: center;
+  color: rgb(230, 169, 56);
+  padding-block: 40px;
+  font-size: 4.3rem;
+}
+h1 {
+  color: white;
+  font-size: 5rem;
+  grid-column: 1 / span 3;
+  grid-row: 2;
+  display: grid;
+  place-content: center;
+}
+
+h2 {
+  color: white;
+  font-style: "Bebas Neue";
+  font-size: 30px;
+}
+p {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+#video {
+  width: 100%;
+  display: block;
+  opacity: 0.5;
+}
+
+.playing video {
+  opacity: 1;
+}
+
+.video-player-button {
+  background: rgb(230, 169, 56);
+  color: #774e77;
+  border: none;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 0.075rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-block: 20px;
+  place-content: center;
+}
+
+.playing .video-player-button {
+  background: rgb(230, 169, 56);
 }
 
 @media (min-width: 600px) {
