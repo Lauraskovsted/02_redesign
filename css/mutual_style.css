@@ -90,6 +90,11 @@ h2 {
   font-family: "Bebas Neue";
   font-size: 30px;
 }
+h3{
+font-family: "Bebas Neue";
+font-size: 30px;
+color: #808080;
+}
 p,
 a,
 footer,
@@ -110,7 +115,7 @@ cite {
 
 body {
   margin: 0 auto;
-  background-color: #774e77;
+  background: linear-gradient(#774e77, #e1c2ad);
 }
 /* Main */
 main {
