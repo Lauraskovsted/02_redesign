@@ -12,8 +12,11 @@
     margin: 0;
     margin-bottom: 30px;
   }
-  p,
   h1 {
+    padding-inline: 30px;
+    color: linear-gradient(#ffe600, #000000, #ffe600);
+  }
+  p {
     padding-inline: 30px;
     color: white;
   }
