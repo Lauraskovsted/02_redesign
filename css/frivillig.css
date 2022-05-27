@@ -95,6 +95,8 @@ hr {
 .box-8,
 .box-9 {
   border-bottom: white solid 1px;
+  padding-inline: 20px;
+  text-align: center;
 }
 
 /* Baggrund til hele nederste sektion */
