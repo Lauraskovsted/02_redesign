@@ -3,6 +3,8 @@
   .main,
   .flex_col1,
   .flex_col2,
+  .flex_col3_1,
+  .flex_col3_2,
   img {
     display: grid;
     grid-template-columns: 1fr;
@@ -13,6 +15,7 @@
     margin-bottom: 30px;
   }
   h1 {
+    font-size: 3.8rem;
     padding-inline: 30px;
     color: linear-gradient(#ffe600, #000000, #ffe600);
   }
@@ -64,6 +67,12 @@
     max-width: 600px;
     margin-top: 45px;
     clip-path: polygon(0px 0px, 100% 10%, 100% 100%, 0% 90%);
+  }
+  .iframe {
+    max-width: fit-content;
+    border: 5px white;
+    border-style: solid;
+    margin: 0;
   }
 }
 
@@ -153,14 +162,13 @@
     text-align: left;
   }
   .container3 {
-    background-image: url(/img/testimg.png);
-    background-size: cover;
+    background-color: hsla(242, 42%, 40%, 1);
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
-    clip-path: polygon(3% 5%, 96% 0%, 100% 100%, 0% 95%);
+    clip-path: polygon(2.42% 5.91%, 99.5% 0.1%, 99.67% 98.48%, 0.59% 96.32%);
   }
   .flex_col3_1 {
     grid-column: 1 / 2;
@@ -177,10 +185,12 @@
   }
 
   .iframe {
-    max-width: 495px;
+    max-width: 432px;
+    height: 661px;
     border: 5px white;
     border-style: solid;
     margin-top: 0;
+    margin-bottom: 20px;
     grid-column: 2 / 3;
   }
 }
