@@ -4,7 +4,7 @@
     display: grid;
     width: 100%;
     height: clamp(200px, 30vw, 70vh);
-    background-image: url(/02_redesign/img/testimg.png);
+    background-image: url(/img/testimg.png);
     mask-image: linear-gradient(black, transparent);
     max-width: none;
     background-size: cover;
