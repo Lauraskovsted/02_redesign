@@ -17,10 +17,10 @@
 body {
   margin: 0 auto;
   background: linear-gradient(
-    50deg,
-    rgb(225, 194, 173) 55%,
+    180deg,
+    rgb(225, 194, 173) 0%,
 
-    rgb(177, 157, 143) 55%
+    rgb(177, 157, 143) 100%
   );
 }
 
@@ -28,6 +28,7 @@ body {
 .container2 {
   display: flex;
   justify-content: space-around;
+  margin-inline: 20px 20px;
 
   margin-top: 40px;
   flex-wrap: wrap;
@@ -58,6 +59,14 @@ body {
 }
 
 @media (min-width: 1040px) {
+  body {
+    background: linear-gradient(
+      50deg,
+      rgb(225, 194, 173) 55%,
+
+      rgb(177, 157, 143) 55%
+    );
+  }
   .flex_col2 {
     max-width: 60ch;
   }
