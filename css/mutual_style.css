@@ -3,6 +3,10 @@
   min-width: 300px;
   max-width: 400px;
 }
+.index {
+  display: flex;
+  padding: 5px;
+}
 .oversigt {
   display: flex;
   flex-direction: column;
@@ -21,7 +25,7 @@ nav a {
 }
 
 nav {
-  background-color: rgb(225, 194, 173);
+  background-color: rgb(255, 255, 255);
 }
 
 @media (min-width: 650px) {
@@ -83,17 +87,18 @@ flex-direction: column;
 /* Typografi */
 h1 {
   font-family: "Bebas Neue";
-  font-size: 70px;
+  font-size: 5rem;
   text-align: center;
 }
 h2 {
   font-family: "Bebas Neue";
   font-size: 30px;
+  color: rgb(230, 169, 56);
 }
-h3{
-font-family: "Bebas Neue";
-font-size: 30px;
-color: #808080;
+h3 {
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  color: #808080;
 }
 p,
 a,
@@ -115,7 +120,8 @@ cite {
 
 body {
   margin: 0 auto;
-  background: linear-gradient(#774e77, #e1c2ad);
+
+  background: linear-gradient(0deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
 }
 /* Main */
 main {
