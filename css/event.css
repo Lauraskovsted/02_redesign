@@ -1,0 +1,96 @@
+/* Header */
+
+.overskrift {
+    display: grid;
+    width: 100%;
+    height: clamp(200px, 30vw, 70vh);
+    background-image: url(/img/testimg.png);
+    mask-image: linear-gradient(black, transparent);
+    max-width: none;
+    background-size: cover;
+    background-position: 50% 20%;
+    place-content: center center;
+    color: white;
+}
+
+.overskrift h1 {
+    position: absolute;
+    font-size: 80px;
+    text-align: left;
+    left: 0;
+    transform: translateY(-100%);
+    padding-left: 90px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    place-content: center center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow:  #000000 30% 0px 0px 8px;
+}
+
+@media (min-width: 1040px) {
+
+    .overskrift h1 {
+        font-size: 120px;
+    }
+
+    .flex_col2 {
+        max-width: 60ch;
+    }
+
+    .flex_col2 h2 {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .overskrift h1 {
+        font-size: 180px;
+    }
+
+    #first,
+    #second {
+        margin-top: -10%;
+    }
+}
+
+.flex_col {
+    padding: 30px;
+    padding-bottom: 60px;
+    text-align: left;
+    flex: 1;
+}  
+
+.caption {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.img1 {
+    width: 545px;
+    height: 545px;
+    object-fit: cover;
+}
+
+cite h2 {
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+}
+
+article h3 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+article p {
+    font-size: 20px;
+}
