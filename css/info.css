@@ -33,7 +33,7 @@ main {
 .container2 {
   display: flex;
   margin-inline: 20px 20px;
-
+  justify-content: space-around;
   margin-top: 40px;
   flex-wrap: wrap;
 }
@@ -52,7 +52,9 @@ main {
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .aabning,
@@ -71,7 +73,7 @@ main {
       rgb(177, 157, 143) 55%
     );
   } */
-  .flex_col2 {
+  .flex_col2 article {
     max-width: 60ch;
   }
 }
@@ -86,7 +88,6 @@ main {
     margin-top: -5%;
 
     padding-bottom: 170px;
-    text-align: left;
   }
 
   #first,
