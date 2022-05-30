@@ -10,51 +10,38 @@
   background-position: 50% 20%;
   color: white;
 }
+
+#overskrift {
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+}
 body {
   margin: 0 auto;
-  background: linear-gradient(
-    50deg,
-    rgb(225, 194, 173) 55%,
 
-    rgb(177, 157, 143) 55%
-  );
+  /* background: linear-gradient(
+    180deg,
+    rgb(225, 194, 173) 0%,
+
+    rgb(177, 157, 143) 100%
+  ); */
 }
 
-.container,
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .container2 {
   display: flex;
-  justify-content: space-around;
+  margin-inline: 20px 20px;
 
   margin-top: 40px;
   flex-wrap: wrap;
 }
 
-.container {
-  background-color: #7e4aac;
-}
 .container2 {
-  background-color: #550055;
+  background-color: hsla(242, 42%, 40%, 1);
 }
 
-@media (min-width: 1200px) {
-  #overskrift {
-    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
-  }
-  .container {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
-    padding-block-end: 15%;
-  }
-  .container2 {
-    clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 100%);
-    padding-block-start: 20%;
-    margin-top: -5%;
-  }
-
-  #first,
-  #second {
-    margin-top: -10%;
-  }
-}
 .flex_col {
   padding-inline: 20px 20px;
   color: white;
@@ -63,24 +50,47 @@ body {
 .flex_col2 {
   padding-inline: 20px 20px;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
 }
 
 .aabning,
 .aabning p,
 .aabning li {
   text-align: center;
-}
-
-article h2 {
-  margin-bottom: -10px;
-  text-align: center;
+  list-style: none;
 }
 
 @media (min-width: 1040px) {
+  /* body {
+    background: linear-gradient(
+      50deg,
+      rgb(225, 194, 173) 55%,
+
+      rgb(177, 157, 143) 55%
+    );
+  } */
   .flex_col2 {
     max-width: 60ch;
   }
-  .flex_col2 h2 {
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-block-end: 15%;
+  }
+  .container2 {
+    clip-path: polygon(13px 48px, 99.5% 20.83%, 98.08% 93.37%, 7px 82.71%);
+    padding-block-start: 20%;
+    margin-top: -5%;
+
+    padding-bottom: 170px;
     text-align: left;
+  }
+
+  #first,
+  #second {
+    margin-top: -10%;
   }
 }
