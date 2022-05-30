@@ -24,13 +24,13 @@
 
 .container {
     display: flex;
+    margin-inline: 20px 20px;
     justify-content: space-around;
-    background-color: white;
-    place-content: center center;
     margin-top: 40px;
     flex-wrap: wrap;
-    border-radius: 10px;
-    box-shadow:  #000000 30% 0px 0px 8px;
+    background-color: hsla(242, 42%, 40%, 1);
+    clip-path: polygon(1.56% 2.89%, 98.98% 0.68%, 99.93% 99.06%, 0.76% 92.15%);
+    color: white;
 }
 
 @media (min-width: 1040px) {
@@ -60,12 +60,12 @@
     }
 }
 
-.flex_col {
+.flex_col_1, .flex_col_2 {
     padding: 30px;
     padding-bottom: 60px;
     text-align: left;
     flex: 1;
-}  
+}
 
 .caption {
     text-align: center;
@@ -78,7 +78,6 @@
     width: 545px;
     height: 545px;
     object-fit: cover;
-    border-radius: 10px;
 }
 
 cite h2 {
@@ -87,11 +86,46 @@ cite h2 {
     margin: 0;
 }
 
+article {
+    margin-top: 30px;
+}
+
 article h3 {
     margin-top: 40px;
-    margin-bottom: 0px;
+    margin-bottom: -10px;
 }
 
 article p {
     font-size: 20px;
+}
+
+.pris {
+    position: relative;
+    font-family: "Bebas Neue";
+    background-color: hsla(347, 89%, 61%, 1);
+    top: 35px;
+    float: left;
+    padding: 10px 0;
+    font-size: 40px;
+    text-align: center;
+    width: 25%;
+    clip-path: polygon(10.36% 18%, 95.31% 3.43%, 93.33% 75.71%, 8.83% 92.15%);
+}
+
+button {
+    font-family: "Bebas Neue";
+    background-color: hsla(347, 89%, 61%, 1);
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 30px 0;
+    font-size: 48px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    clip-path: polygon(0.83% 13.91%, 98.62% 20.59%, 99.93% 90.42%, 1.67% 79.9%);
+}
+
+button:hover {
+    filter: opacity(50%)
 }
