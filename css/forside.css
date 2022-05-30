@@ -99,7 +99,7 @@ footer {
   place-content: center center;
   width: 100%;
   height: clamp(400px, 30vw, 70vh);
-  background-image: url(/img/testimg.png);
+  background-image: url(/02_redesign/img/testimg.png);
   max-width: none;
   background-size: cover;
   color: white;
