@@ -5,6 +5,7 @@
   .flex_col2,
   .flex_col3_1,
   .flex_col3_2,
+  .flex_col4,
   img {
     display: grid;
     grid-template-columns: 1fr;
@@ -23,7 +24,8 @@
     padding-inline: 30px;
     color: white;
   }
-  h2 {
+  h2,
+  h3 {
     color: rgb(230, 169, 56);
     padding-inline: 30px;
   }
@@ -74,6 +76,8 @@
     border-style: solid;
     margin: 0;
   }
+
+  /* BURGER-MENU */
 }
 
 /* STORSKÆRM */
@@ -101,6 +105,11 @@
     color: rgb(230, 169, 56);
     font-style: "Bebas Neue";
     font-size: 30px;
+  }
+  h3 {
+    color: rgb(230, 169, 56);
+    font-style: "Bebas Neue";
+    font-size: 20px;
   }
   p {
     color: white;
@@ -179,6 +188,33 @@
 
   .flex_col3_2 {
     grid-column: 2 / 3;
+    gap: 5px;
+    padding-inline: 60px;
+    text-align: left;
+  }
+  .container4 {
+    background-color: hsla(242, 42%, 40%, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding-block: 60px;
+    margin-block-end: 50px;
+    clip-path: polygon(2.42% 5.91%, 99.5% 0.1%, 99.67% 98.48%, 0.59% 96.32%);
+  }
+  .flex_col4_1 {
+    grid-column: 1 / 2;
+    gap: 5px;
+    padding-inline: 60px;
+    text-align: left;
+  }
+  .flex_col4_2 {
+    grid-column: 2 / 3;
+    gap: 5px;
+    padding-inline: 60px;
+    text-align: left;
+  }
+  .flex_col4_3 {
+    grid-column: 3 / 4;
     gap: 5px;
     padding-inline: 60px;
     text-align: left;
