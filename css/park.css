@@ -168,7 +168,7 @@
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
-    clip-path: polygon(3% 5%, 96% 0%, 100% 100%, 0% 95%);
+    clip-path: polygon(2.42% 5.91%, 99.5% 0.1%, 99.67% 98.48%, 0.59% 96.32%);
   }
   .flex_col3_1 {
     grid-column: 1 / 2;
@@ -185,8 +185,8 @@
   }
 
   .iframe {
-    max-width: 495px;
-    height: 300px;
+    max-width: 432px;
+    height: 661px;
     border: 5px white;
     border-style: solid;
     margin-top: 0;
