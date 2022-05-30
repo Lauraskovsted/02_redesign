@@ -116,7 +116,6 @@
     background-position: 100% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 83%);
   }
-
   .img4 {
     background-image: url(/img/testimg.png);
     max-width: 495px;
@@ -149,9 +148,29 @@
   .flex_col2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     gap: 70px;
     padding-inline: 60px;
     text-align: left;
+  }
+  .container3 {
+    background-image: url(/img/testimg.png);
+    background-size: cover;
+    margin: 0;
+    padding-block: 60px;
+    margin-block-end: 50px;
+    clip-path: polygon(3% 5%, 96% 0%, 100% 100%, 0% 95%);
+  }
+  .flex_col3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    padding-inline: 60px;
+    text-align: left;
+  }
+  .iframe {
+    max-width: 495px;
+    border: 5px white;
+    border-style: solid;
+    margin-top: 0;
   }
 }
