@@ -4,7 +4,7 @@
   place-content: center center;
   width: 100%;
   height: clamp(200px, 30vw, 70vh);
-  background-image: url(/02_redesign/img/testimg.png);
+  background-image: url(/img/testimg.png);
   max-width: none;
   background-size: cover;
   background-position: 50% 20%;
@@ -19,7 +19,7 @@
   border-bottom: 30px;
   margin-left: -264px;
   margin-right: -264px;
-  background-image: url(/02_redesign/svg/ide_02.svg);
+  background-image: url(/svg/ide_02.svg);
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   color: white;
@@ -97,7 +97,7 @@ hr {
 
 /* Baggrund til hele nederste sektion */
 .container {
-  background-image: url(/02_redesign/svg/ide_02.svg);
+  background-image: url(/svg/ide_02.svg);
   background-repeat: no-repeat;
   background-size: cover;
 
