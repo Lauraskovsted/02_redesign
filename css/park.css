@@ -15,10 +15,30 @@
     margin: 0;
     margin-bottom: 30px;
   }
+  .container1,
+  .container2 {
+    background-color: hsla(347, 89%, 61%, 1);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-block: 10px;
+    margin-block-end: 50px;
+    clip-path: polygon(0% 0%, 0% 99%, 100% 100%, 100% 1%);
+    margin-inline: 10px;
+  }
+  .container3,
+  .container4 {
+    background-color: hsla(242, 42%, 40%, 1);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-block: 10px;
+    margin-block-end: 50px;
+    clip-path: polygon(0% 0%, 0% 99%, 100% 100%, 100% 1%);
+    margin-inline: 10px;
+  }
   h1 {
     font-size: 3.8rem;
     padding-inline: 30px;
-    color: linear-gradient(#ffe600, #000000, #ffe600);
+    color: rgb(230, 169, 56);
   }
   p {
     padding-inline: 30px;
@@ -70,8 +90,15 @@
     margin-top: 45px;
     clip-path: polygon(0px 0px, 100% 10%, 100% 100%, 0% 90%);
   }
+  .img5 {
+    background-image: url(/img/testimg.png);
+    max-width: 600px;
+    margin-top: 45px;
+    clip-path: polygon(0px 0px, 100% 10%, 100% 100%, 0% 90%);
+  }
   .iframe {
     max-width: fit-content;
+    place-self: center;
     border: 5px white;
     border-style: solid;
     margin: 0;
@@ -140,6 +167,14 @@
     border: 5px white;
     border-style: solid;
   }
+  .img5 {
+    background-image: url(/img/testimg.png);
+    background-image: cover;
+    max-width: 275px;
+    height: 570px;
+    border: 5px white;
+    border-style: solid;
+  }
 
   .container1 {
     margin-block: 50px;
@@ -199,7 +234,7 @@
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
-    clip-path: polygon(2.42% 5.91%, 99.5% 0.1%, 99.67% 98.48%, 0.59% 96.32%);
+    clip-path: polygon(0.34% 0.48%, 98.92% 3.69%, 96.17% 98.07%, 2.34% 93.13%);
   }
   .flex_col4_1 {
     grid-column: 1 / 2;
