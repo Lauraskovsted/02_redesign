@@ -46,15 +46,18 @@
     padding-inline: 30px;
     padding-top: 10px;
     color: rgb(230, 169, 56);
+    text-shadow: 2px 2px 4px #000000;
   }
   p {
     padding-inline: 30px;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
   }
   h2,
   h3 {
     color: rgb(230, 169, 56);
     padding-inline: 30px;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   #overskrift {
@@ -173,6 +176,7 @@
   }
   h1 {
     color: rgb(230, 169, 56);
+    text-shadow: 2px 2px 4px #000000;
     font-size: 5rem;
     grid-column: 1 / span 3;
     grid-row: 2;
@@ -182,16 +186,19 @@
 
   h2 {
     color: rgb(230, 169, 56);
+    text-shadow: 2px 2px 4px #000000;
     font-style: "Bebas Neue";
     font-size: 30px;
   }
   h3 {
     color: rgb(230, 169, 56);
+    text-shadow: 2px 2px 4px #000000;
     font-style: "Bebas Neue";
     font-size: 20px;
   }
   p {
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
   }
@@ -314,7 +321,8 @@
   }
 
   .container5 {
-    background-color: hsla(242, 42%, 40%, 1);
+    background-image: url(/img/P1080560.JPG);
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0;
@@ -322,6 +330,7 @@
     margin-block-end: 50px;
     clip-path: polygon(0.34% 0.48%, 98.92% 3.69%, 96.17% 98.07%, 2.34% 93.13%);
     transform: translateX(15%);
+    width: fit-content;
   }
   .flex_col5_1 {
     grid-column: 1 / 2;
