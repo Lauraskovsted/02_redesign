@@ -15,6 +15,14 @@
 .flex_container {
   display: flex;
   flex-wrap: wrap;
+  padding: 10px 250px 50px 250px;
+  border-bottom: 30px;
+  margin-left: -264px;
+  margin-right: -264px;
+  background-image: url(/svg/ide_02.svg);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  color: white;
   flex: 3;
   padding: 10px 250px 50px 250px;
   margin: 0px -264px 0px;

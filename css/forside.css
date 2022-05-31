@@ -85,14 +85,13 @@ footer {
   padding: 12px 24px;
   color: black;
   font-size: 1.5rem;
-  letter-spacing: 0.5ch;
-  font-weight: 600;
   text-decoration: none;
   transition-duration: 0.25s;
 }
 
 .menu_item:hover {
-  text-decoration: line-through 2px;
+  text-decoration: underline;
+  color: #9100d0;
 }
 #splash {
   display: grid;
