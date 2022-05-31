@@ -4,7 +4,7 @@
   place-content: center center;
   width: 100%;
   height: clamp(200px, 30vw, 70vh);
-  background-image: url(/img/testimg.png);
+  background-image: url(/img/P1080700.JPG);
   max-width: none;
   background-size: cover;
   background-position: 50% 20%;
@@ -19,9 +19,9 @@
   border-bottom: 30px;
   margin-left: -264px;
   margin-right: -264px;
-  background-image: url(/svg/ide_02.svg);
+  /* background-image: url(/svg/ide_02.svg);
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  /* background-size: cover;  */
   color: white;
   flex: 3;
   padding: 10px 250px 50px 250px;
