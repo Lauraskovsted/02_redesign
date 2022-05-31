@@ -3,7 +3,7 @@
   display: grid;
   place-content: center center;
   width: 100%;
-  height: clamp(300px, 50vw, 70vh);
+  height: clamp(200px, 30vw, 70vh);
   background-image: url(/img/testimg.png);
   max-width: none;
   background-size: cover;
