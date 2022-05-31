@@ -32,11 +32,7 @@ main {
   justify-content: space-around;
   margin-top: 40px;
   flex-wrap: wrap;
-  background: linear-gradient(45deg, rgb(43, 110, 49) 0%, rgb(59, 145, 68) 100%);
-}
-
-.container3 {
-  background: linear-gradient(45deg, rgb(128, 19, 19) 0%, rgb(197, 26, 26) 100%);
+  background-color: hsla(242, 42%, 40%, 1);
 }
 
 .flex_col {
@@ -79,14 +75,16 @@ article h2 {
 }
 @media (min-width: 1160px) {
   .container {
-    padding-block-end: 5%;
+    margin-block: 9% 15%;
   }
+
   .container2 {
     clip-path: polygon(14px 29px, 98.64% 19.81%, 85.07% 79.02%, 51px 88.04%);
-    padding-block-start: 20%;
+    padding-block-start: 23%;
     margin-top: -5%;
 
     padding-bottom: 170px;
+    transform: translateX(10%);
   }
 
   .container3 {
@@ -102,16 +100,11 @@ article h2 {
     margin-top: -5%;
 
     padding-bottom: 170px;
+    transform: translateX(-10%);
   }
 
   #first,
   #second {
     margin-top: -10%;
   }
-}
-
-body {
-  margin: 0 auto;
-
-  background: linear-gradient(45deg, rgb(180, 180, 180) 0%, rgb(148, 148, 148) 100%);
 }
