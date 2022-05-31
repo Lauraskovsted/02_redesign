@@ -34,7 +34,7 @@ main {
   flex-wrap: wrap;
   background-color: hsla(242, 42%, 40%, 1);
 }
-
+/* Flex col */
 .flex_col {
   padding-inline: 20px 20px;
   color: white;
@@ -50,6 +50,7 @@ main {
   gap: 20px;
 }
 
+/* åbningstider */
 .aabning,
 .aabning p,
 .aabning li {
@@ -84,7 +85,7 @@ article h2 {
     margin-top: -5%;
 
     padding-bottom: 170px;
-    transform: translateX(10%);
+    transform: translateX(15%);
   }
 
   .container3 {
@@ -100,7 +101,7 @@ article h2 {
     margin-top: -5%;
 
     padding-bottom: 170px;
-    transform: translateX(-10%);
+    transform: translateX(-15%);
   }
 
   #first,
