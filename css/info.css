@@ -32,7 +32,11 @@ main {
   justify-content: space-around;
   margin-top: 40px;
   flex-wrap: wrap;
-  background-color: hsla(242, 42%, 40%, 1);
+  background: linear-gradient(45deg, rgb(43, 110, 49) 0%, rgb(59, 145, 68) 100%);
+}
+
+.container3 {
+  background: linear-gradient(45deg, rgb(128, 19, 19) 0%, rgb(197, 26, 26) 100%);
 }
 
 .flex_col {
@@ -107,4 +111,10 @@ article h2 {
   #second {
     margin-top: -10%;
   }
+}
+
+body {
+  margin: 0 auto;
+
+  background: linear-gradient(45deg, rgb(180, 180, 180) 0%, rgb(148, 148, 148) 100%);
 }
