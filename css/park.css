@@ -9,8 +9,8 @@
   .flex_col5_2,
   .flex_col5_3,
   img {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     gap: 20px;
     padding: 0;
@@ -168,8 +168,11 @@
     gap: 5px;
     height: 600px;
   }
+  main {
+    flex-wrap: wrap;
+  }
   h1 {
-    color: white;
+    color: rgb(230, 169, 56);
     font-size: 5rem;
     grid-column: 1 / span 3;
     grid-row: 2;
@@ -245,6 +248,7 @@
     padding-block: 60px;
     margin-block-end: 50px;
     clip-path: polygon(0 0, 100% 11%, 95% 90%, 3% 100%);
+    transform: translateX(-15%);
   }
 
   .flex_col2 {
@@ -262,6 +266,7 @@
     padding-block: 60px;
     margin-block-end: 50px;
     clip-path: polygon(2.42% 5.91%, 99.5% 0.1%, 99.67% 98.48%, 0.59% 96.32%);
+    transform: translateX(15%);
   }
   .flex_col3_1 {
     grid-column: 1 / 2;
@@ -286,6 +291,7 @@
     gap: 10px;
     padding-left: 66px;
     clip-path: polygon(0.67% 0.28%, 96.25% 3.89%, 99.67% 99.18%, 3.51% 96.46%);
+    transform: translateX(-15%);
   }
   .img6 {
     background-size: cover;
@@ -343,6 +349,7 @@
     padding-block: 60px;
     margin-block-end: 50px;
     clip-path: polygon(0.34% 0.48%, 98.92% 3.69%, 96.17% 98.07%, 2.34% 93.13%);
+    transform: translateX(15%);
   }
   .flex_col5_1 {
     grid-column: 1 / 2;
