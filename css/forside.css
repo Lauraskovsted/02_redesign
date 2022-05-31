@@ -127,7 +127,7 @@ cite {
   font-size: 4.3rem;
 }
 h1 {
-  color: white;
+  color: rgb(230, 169, 56);
   font-size: 5rem;
   grid-column: 1 / span 3;
   grid-row: 2;
@@ -136,7 +136,7 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: rgb(230, 169, 56);
   font-style: "Bebas Neue";
   font-size: 30px;
 }
@@ -188,5 +188,14 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     place-content: center center;
+  }
+  .grid_1,
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-inline: 20px;
+    gap: 70px;
+    padding-inline: 60px;
+    text-align: left;
   }
 }
