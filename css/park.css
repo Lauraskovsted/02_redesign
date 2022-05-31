@@ -196,20 +196,20 @@
     font-size: 16px;
   }
   .img1 {
-    background-image: url(/img/testimg.png);
-    background-size: cover;
+    background-image: url(/img/P1080584.JPG);
+    background-size: 300%;
     background-position: 0% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 5% 87%);
   }
   .img2 {
-    background-image: url(/img/testimg.png);
-    background-size: cover;
-    background-position: 80% 0%;
+    background-image: url(/img/P1080584.JPG);
+    background-size: 300%;
+    background-position: 50% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 83%, 0% 100%);
   }
   .img3 {
-    background-image: url(/img/testimg.png);
-    background-size: cover;
+    background-image: url(/img/P1080584.JPG);
+    background-size: 300%;
     background-position: 100% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 83%);
   }
@@ -242,7 +242,7 @@
   }
 
   .container2 {
-    background-image: url(/img/testimg.png);
+    background-image: url(/img/P1080515.JPG);
     background-size: cover;
     margin: 0;
     padding-block: 60px;
@@ -283,64 +283,42 @@
   .container4 {
     background-color: hsla(242, 42%, 40%, 1);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
     gap: 10px;
-    padding-left: 66px;
-    clip-path: polygon(0.67% 0.28%, 96.25% 3.89%, 99.67% 99.18%, 3.51% 96.46%);
+    padding-inline: 104px;
+    clip-path: polygon(3.58% 10.72%, 34.5% 3.04%, 64.64% 3.76%, 90.55% 16.6%, 96.42% 97.67%, 64.51% 82.89%, 34.61% 99.06%, 15.36% 73.82%);
     transform: translateX(-15%);
   }
   .img6 {
     background-size: cover;
     max-width: 500px;
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
     border: 5px rgb(230, 169, 56);
     border-style: solid;
+    clip-path: polygon(2.05% 8.58%, 95.46% -0.26%, 98.69% 99.48%, 40.84% 73.05%);
   }
-  .img7 {
-    background-size: cover;
-    max-width: 500px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
-  }
-  .img8 {
-    background-size: cover;
-    max-width: 500px;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
-  }
+
   .img9 {
     background-size: cover;
     max-width: 500px;
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
     border: 5px rgb(230, 169, 56);
     border-style: solid;
+    clip-path: polygon(-0.12% 0.13%, 97.63% 1.07%, 99.08% 81.7%, 0.37% 100.02%);
   }
   .img10 {
     background-size: cover;
     max-width: 500px;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-column: 3 / 4;
     border: 5px rgb(230, 169, 56);
     border-style: solid;
+    clip-path: polygon(-0.12% 1.17%, 80.73% 16.04%, 99.67% 99.18%, 0.17% 82.53%);
   }
-  .img11 {
-    background-size: cover;
-    max-width: 500px;
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
-  }
+
   .container5 {
     background-color: hsla(242, 42%, 40%, 1);
     display: grid;
