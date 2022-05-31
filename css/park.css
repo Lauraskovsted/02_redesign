@@ -18,7 +18,8 @@
     margin-bottom: 30px;
   }
   .container1,
-  .container2 {
+  .container2,
+  .container4 {
     background-color: hsla(347, 89%, 61%, 1);
     display: grid;
     grid-template-columns: 1fr;
@@ -28,7 +29,6 @@
     margin-inline: 10px;
   }
   .container3,
-  .container4,
   .container5 {
     background-color: hsla(242, 42%, 40%, 1);
     display: grid;
@@ -70,83 +70,43 @@
     height: 300px;
   }
   .img1 {
-    background-image: url(/img/testimg.png);
+    background-image: url(/img/P1080584.JPG);
     grid-column: 1/2;
     grid-row: 1;
     height: 300px;
+    background-position: 0% 0%;
+    background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
   }
   .img2 {
-    background-image: url(/img/testimg.png);
+    background-image: url(/img/P1080584.JPG);
     grid-column: 2/3;
     grid-row: 1;
     height: 300px;
+    background-position: 50% 0%;
+    background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 90%);
   }
   .img3 {
-    background-image: url(/img/testimg.png);
+    background-image: url(/img/P1080584.JPG);
     grid-column: 3/4;
     grid-row: 1;
     height: 300px;
+    background-position: 100% 0%;
+    background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
   }
   .BP {
     grid-column: 1 / span 3;
     grid-row: 2;
   }
-  .img4 {
-    background-image: url(/img/testimg.png);
-    max-width: 600px;
-    margin-top: 45px;
-    clip-path: polygon(0px 0px, 100% 10%, 100% 100%, 0% 90%);
-  }
-  .img5 {
-    background-image: url(/img/testimg.png);
-    max-width: 600px;
-    margin-top: 45px;
-    clip-path: polygon(0px 0px, 100% 10%, 100% 100%, 0% 90%);
-  }
-  .img6 {
-    background-image: url(/img/testimg.png);
-    max-width: 345px;
-    margin-top: 45px;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
-  }
-  .img7 {
-    background-image: url(/img/testimg.png);
-    max-width: 345px;
-    margin-top: 45px;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
-  }
-  .img8 {
-    background-image: url(/img/testimg.png);
-    max-width: 345px;
-    margin-top: 45px;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
-  }
-  .img9 {
-    background-image: url(/img/testimg.png);
-    max-width: 345px;
-    margin-top: 45px;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
-  }
+  .img4,
+  .img6,
+  .img9,
   .img10 {
-    background-image: url(/img/testimg.png);
-    max-width: 345px;
-    margin-top: 45px;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
-  }
-  .img11 {
-    background-image: url(/img/testimg.png);
-    max-width: 345px;
-    margin-top: 45px;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
+    background-position: 50% 0%;
+    background-size: 300%;
+    clip-path: polygon(0px 0px, 100% 10%, 100% 100%, 0% 90%);
   }
   .iframe {
     max-width: fit-content;
@@ -329,7 +289,6 @@
     padding-block: 60px;
     margin-block-end: 50px;
     clip-path: polygon(0.34% 0.48%, 98.92% 3.69%, 96.17% 98.07%, 2.34% 93.13%);
-    transform: translateX(15%);
     width: fit-content;
   }
   .flex_col5_1 {
