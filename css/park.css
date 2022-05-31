@@ -297,8 +297,6 @@
     background-size: cover;
     max-width: 500px;
     grid-column: 1 / 2;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
     clip-path: polygon(2.05% 8.58%, 95.46% -0.26%, 98.69% 99.48%, 40.84% 73.05%);
   }
 
@@ -306,16 +304,12 @@
     background-size: cover;
     max-width: 500px;
     grid-column: 2 / 3;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
     clip-path: polygon(-0.12% 0.13%, 97.63% 1.07%, 99.08% 81.7%, 0.37% 100.02%);
   }
   .img10 {
     background-size: cover;
     max-width: 500px;
     grid-column: 3 / 4;
-    border: 5px rgb(230, 169, 56);
-    border-style: solid;
     clip-path: polygon(-0.12% 1.17%, 80.73% 16.04%, 99.67% 99.18%, 0.17% 82.53%);
   }
 
