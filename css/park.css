@@ -172,7 +172,7 @@
     flex-wrap: wrap;
   }
   h1 {
-    color: white;
+    color: rgb(230, 169, 56);
     font-size: 5rem;
     grid-column: 1 / span 3;
     grid-row: 2;
