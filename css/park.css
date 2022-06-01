@@ -24,7 +24,7 @@
     display: grid;
     grid-template-columns: 1fr;
     padding-block: 10px;
-    margin-block-end: 50px;
+    margin-block-end: 4vh;
     clip-path: polygon(0% 0%, 0% 99%, 100% 100%, 100% 1%);
     margin-inline: 10px;
   }
@@ -67,13 +67,14 @@
     text-align: center;
     margin: 0;
     margin-bottom: 90px;
-    height: 300px;
+    height: 35vh;
+    width: 100%;
   }
   .img1 {
     background-image: url(/img/P1080584.JPG);
     grid-column: 1/2;
     grid-row: 1;
-    height: 300px;
+    height: 34vh;
     background-position: 0% 0%;
     background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
@@ -82,7 +83,7 @@
     background-image: url(/img/P1080584.JPG);
     grid-column: 2/3;
     grid-row: 1;
-    height: 300px;
+    height: 34vh;
     background-position: 50% 0%;
     background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 90%);
@@ -91,7 +92,7 @@
     background-image: url(/img/P1080584.JPG);
     grid-column: 3/4;
     grid-row: 1;
-    height: 300px;
+    height: 34vh;
     background-position: 100% 0%;
     background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
@@ -127,10 +128,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr;
     gap: 5px;
-    height: 830px;
+    height: 85vh;
   }
   main {
     flex-wrap: wrap;
+    width: fit-content;
   }
   img,
   .iframe {
@@ -169,21 +171,21 @@
     background-size: 300%;
     background-position: 0% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 5% 87%);
-    height: 756px;
+    height: 70vh;
   }
   .img2 {
     background-image: url(/img/P1080584.JPG);
     background-size: 300%;
     background-position: 50% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 83%, 0% 100%);
-    height: 756px;
+    height: 70vh;
   }
   .img3 {
     background-image: url(/img/P1080584.JPG);
     background-size: 300%;
     background-position: 100% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 83%);
-    height: 756px;
+    height: 70vh;
   }
   .img4 {
     background-image: url(/img/testimg.png);
@@ -220,25 +222,24 @@
     padding-block: 60px;
     margin-block-end: 50px;
     clip-path: polygon(0px 0px, 100% 11%, 94.54% 93.15%, 3% 100%);
-    transform: translateX(-15%);
+    transform: translateX(-5%);
+    width: 100%;
   }
 
   .flex_col2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 70px;
     padding-inline: 60px;
     text-align: left;
   }
   .container3 {
     background-color: hsla(242, 42%, 40%, 1);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
     clip-path: polygon(2.42% 5.91%, 99.5% 0.1%, 99.67% 98.48%, 0.59% 96.32%);
-    transform: translateX(15%);
+    width: 100%;
   }
   .flex_col3_1 {
     grid-column: 1 / 2;
@@ -254,51 +255,35 @@
   }
   .container4 {
     background-color: hsla(242, 42%, 40%, 1);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    width: fit-content;
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
     gap: 10px;
-    padding-inline: 104px;
-    clip-path: polygon(3.09% 5.81%, 45.42% 0.31%, 94.77% 5.12%, 93.1% 43.93%, 95.52% 67.56%, 78.06% 89.14%, 34.61% 99.06%, 15.36% 73.82%);
-    transform: translateX(-15%);
+    padding-inline: 50px;
+    clip-path: polygon(0.84% 0.64%, 63.29% 16.22%, 98.69% 9.3%, 98.89% 83.76%, 55.39% 83.27%, 54% 91.07%, 0.44% 96.3%);
   }
   .img6 {
     background-size: cover;
-    max-width: 500px;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    clip-path: polygon(-0.15% 11.73%, 89.86% 0.19%, 97.09% 82.51%, 14.04% 97.98%);
+    width: 100%;
+    clip-path: polygon(0.66% 0.57%, 94.75% 11.51%, 100.14% 90.77%, -0.01% 97.98%);
   }
   .img9 {
     background-size: cover;
-    max-width: 500px;
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    clip-path: polygon(-0.12% 0.13%, 98.63% 8.58%, 99.29% 57.59%, 96.08% 90.11%, 0.77% 82.3%);
-  }
-  .img10 {
-    background-size: cover;
-    max-width: 100%;
-    grid-column: 1 / span 2;
-    grid-row: 2 / 3;
-    clip-path: polygon(7.4% 13.3%, 49.71% 0.33%, 98.36% 7.6%, 99.97% 44.2%, 81.3% 84.26%, 34.68% 98.99%, 11.76% 54.71%);
-    margin-block-start: -10%;
+    width: 100%;
+    clip-path: polygon(-0.13% 20.38%, 99.91% 8.17%, 98.29% 84.32%, 5.17% 81.89%);
   }
 
   .container5 {
     background-image: url(/img/P1080560.JPG);
     background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
     clip-path: polygon(0.34% 0.48%, 98.92% 3.69%, 96.17% 98.07%, 2.34% 93.13%);
-    width: fit-content;
+    width: 100%;
   }
   .flex_col5_1 {
     grid-column: 1 / 2;

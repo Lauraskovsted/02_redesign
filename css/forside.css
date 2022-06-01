@@ -184,11 +184,15 @@ p {
 .playing .video-player-button {
   background: rgb(230, 169, 56);
 }
+.img1 {
+  max-width: 100%;
+  clip-path: polygon(0% 28%, 100% 43%, 100% 100%, 0% 100%);
+  margin-block-start: -27%;
+}
 
 @media (min-width: 600px) {
   .grid_1,
   .grid_2 {
-    background-color: hsla(242, 42%, 40%, 1);
     display: grid;
     grid-template-columns: 1fr;
     padding-inline: 20px;
@@ -205,6 +209,11 @@ p {
     padding-block: 60px;
     padding-inline: 59px;
     clip-path: polygon(2.84% 37.54%, 93.86% 23.82%, 94.89% 90.46%, 0.87% 97.83%);
-    margin-block-start: -27%;
+    margin-block-start: -20%;
+  }
+  .img1 {
+    max-width: 100%;
+    clip-path: polygon(3.3% 52.56%, 93.77% 40.19%, 94.89% 90.46%, 0.87% 97.83%);
+    margin-block-start: -15%;
   }
 }
