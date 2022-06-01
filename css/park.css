@@ -24,7 +24,7 @@
     display: grid;
     grid-template-columns: 1fr;
     padding-block: 10px;
-    margin-block-end: 50px;
+    margin-block-end: 4vh;
     clip-path: polygon(0% 0%, 0% 99%, 100% 100%, 100% 1%);
     margin-inline: 10px;
   }
@@ -67,7 +67,7 @@
     text-align: center;
     margin: 0;
     margin-bottom: 90px;
-    height: 300px;
+    height: 35vh;
     width: 100%;
   }
   .img1 {
@@ -132,6 +132,7 @@
   }
   main {
     flex-wrap: wrap;
+    width: fit-content;
   }
   img,
   .iframe {
