@@ -101,6 +101,7 @@ footer {
   background-image: url(/img/P1080707.JPG);
   max-width: none;
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
 }
