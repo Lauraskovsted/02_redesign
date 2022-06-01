@@ -1,5 +1,5 @@
 /* MOBIL */
-@media (max-width: 800px) {
+@media (max-width: 736px) {
   .main,
   .flex_col1,
   .flex_col2,
@@ -119,7 +119,7 @@
 }
 
 /* STORSKÆRM */
-@media (min-width: 600px) {
+@media (min-width: 736px) {
   #overskrift {
     background-size: 100%;
     height: 300px;
