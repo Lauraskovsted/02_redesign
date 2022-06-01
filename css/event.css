@@ -1,14 +1,18 @@
 /* Header */
 
+body {
+    background: linear-gradient(45deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+}
+
 .overskrift {
     display: grid;
     width: 100%;
     height: clamp(200px, 30vw, 70vh);
-    background-image: url(/img/testimg.png);
+    background-image: url(/img/P1080504.JPG);
     mask-image: linear-gradient(black, transparent);
     max-width: none;
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 50% 60%;
     place-content: center center;
     color: white;
 }
@@ -28,7 +32,7 @@
     justify-content: space-around;
     margin-top: 40px;
     flex-wrap: wrap;
-    background-color: hsla(242, 42%, 40%, 1);
+    background-color: #142143;
     clip-path: polygon(1.56% 2.89%, 98.98% 0.68%, 99.93% 99.06%, 0.76% 92.15%);
     color: white;
 }
@@ -69,7 +73,7 @@
 
 .caption {
     text-align: center;
-    color: white;
+    color: #142143;
     font-size: 60px;
     padding-top: 30px;
 }
@@ -84,6 +88,7 @@ cite h2 {
     font-size: 40px;
     text-align: left;
     margin: 0;
+    color: hsla(347, 89%, 61%, 1);
 }
 
 article {
@@ -93,6 +98,7 @@ article {
 article h3 {
     margin-top: 40px;
     margin-bottom: -10px;
+    color: hsla(347, 89%, 61%, 1);
 }
 
 article p {
