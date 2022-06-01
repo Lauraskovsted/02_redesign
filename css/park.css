@@ -115,8 +115,6 @@
     border-style: solid;
     margin: 0;
   }
-
-  /* BURGER-MENU */
 }
 
 /* STORSKÆRM */
@@ -129,10 +127,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr;
     gap: 5px;
-    height: 600px;
+    height: 830px;
   }
   main {
     flex-wrap: wrap;
+  }
+  img,
+  .iframe {
+    input: valid;
   }
   h1 {
     color: rgb(230, 169, 56);
@@ -167,18 +169,21 @@
     background-size: 300%;
     background-position: 0% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 5% 87%);
+    height: 756px;
   }
   .img2 {
     background-image: url(/img/P1080584.JPG);
     background-size: 300%;
     background-position: 50% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 83%, 0% 100%);
+    height: 756px;
   }
   .img3 {
     background-image: url(/img/P1080584.JPG);
     background-size: 300%;
     background-position: 100% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 83%);
+    height: 756px;
   }
   .img4 {
     background-image: url(/img/testimg.png);
@@ -214,7 +219,7 @@
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
-    clip-path: polygon(0 0, 100% 11%, 95% 90%, 3% 100%);
+    clip-path: polygon(0px 0px, 100% 11%, 94.54% 93.15%, 3% 100%);
     transform: translateX(-15%);
   }
 
@@ -250,34 +255,38 @@
   .container4 {
     background-color: hsla(242, 42%, 40%, 1);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     width: fit-content;
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
     gap: 10px;
     padding-inline: 104px;
-    clip-path: polygon(3.58% 10.72%, 34.5% 3.04%, 64.64% 3.76%, 90.55% 16.6%, 96.42% 97.67%, 64.51% 82.89%, 34.61% 99.06%, 15.36% 73.82%);
+    clip-path: polygon(3.09% 5.81%, 45.42% 0.31%, 94.77% 5.12%, 93.1% 43.93%, 95.52% 67.56%, 78.06% 89.14%, 34.61% 99.06%, 15.36% 73.82%);
     transform: translateX(-15%);
   }
   .img6 {
     background-size: cover;
     max-width: 500px;
     grid-column: 1 / 2;
-    clip-path: polygon(2.05% 8.58%, 95.46% -0.26%, 98.69% 99.48%, 40.84% 73.05%);
+    grid-row: 1 / 2;
+    clip-path: polygon(-0.15% 11.73%, 89.86% 0.19%, 97.09% 82.51%, 14.04% 97.98%);
   }
-
   .img9 {
     background-size: cover;
     max-width: 500px;
     grid-column: 2 / 3;
-    clip-path: polygon(-0.12% 0.13%, 97.63% 1.07%, 99.08% 81.7%, 0.37% 100.02%);
+    grid-row: 1 / 2;
+    clip-path: polygon(-0.12% 0.13%, 98.63% 8.58%, 99.29% 57.59%, 96.08% 90.11%, 0.77% 82.3%);
   }
   .img10 {
     background-size: cover;
-    max-width: 500px;
-    grid-column: 3 / 4;
-    clip-path: polygon(-0.12% 1.17%, 80.73% 16.04%, 99.67% 99.18%, 0.17% 82.53%);
+    max-width: 100%;
+    grid-column: 1 / span 2;
+    grid-row: 2 / 3;
+    clip-path: polygon(7.4% 13.3%, 49.71% 0.33%, 98.36% 7.6%, 99.97% 44.2%, 81.3% 84.26%, 34.68% 98.99%, 11.76% 54.71%);
+    margin-block-start: -10%;
   }
 
   .container5 {
