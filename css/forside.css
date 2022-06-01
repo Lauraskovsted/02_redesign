@@ -205,7 +205,9 @@ p {
   }
   .container {
     background-color: hsla(242, 42%, 40%, 1);
-    width: 100%;
+    width: fit-content;
+    display: flex;
+    justify-self: center;
     margin: 0;
     padding-block: 60px;
     padding-inline: 59px;
