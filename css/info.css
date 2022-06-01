@@ -1,14 +1,31 @@
 /* Header */
+
+.container2,
+.container3 {
+  padding-block: 40px;
+  clip-path: padding-box polygon(0% 0%, 0% 97%, 100% 100%, 100% 3%);
+}
+
 #overskrift {
   display: grid;
   place-content: center center;
   width: 100%;
-  height: clamp(200px, 30vw, 70vh);
-  background-image: url(/img/testimg.png);
+  height: clamp(300px, 30vw, 70vh);
+  background-image: url(/img/jachob.jpeg);
   max-width: none;
   background-size: cover;
-  background-position: 50% 20%;
+  background-position: 50% 23%;
+  color: rgb(230, 169, 56);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#overskrift cite {
   color: white;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+#overskrift h1 {
+  font-size: clamp(5rem, 10vw, 9rem);
 }
 
 #overskrift {
@@ -32,11 +49,7 @@ main {
   justify-content: space-around;
   margin-top: 40px;
   flex-wrap: wrap;
-  background: linear-gradient(45deg, rgb(43, 110, 49) 0%, rgb(59, 145, 68) 100%);
-}
-
-.container3 {
-  background: linear-gradient(45deg, rgb(128, 19, 19) 0%, rgb(197, 26, 26) 100%);
+  background-color: hsla(242, 42%, 40%, 1);
 }
 /* Flex col */
 .flex_col {
@@ -50,8 +63,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  text-align: center;
-  gap: 20px;
 }
 
 /* åbningstider */
@@ -61,28 +72,27 @@ main {
   text-align: center;
   list-style: none;
 }
-
+/* Skrift i fed i orange */
 strong {
   color: rgb(230, 169, 56) !important;
 }
 article h2 {
   margin-bottom: -10px;
 }
-
+/* Maks bredde på tekst */
 .flex_col2 article {
   max-width: 60ch;
 }
-
 @media (min-width: 1060px) {
   .flex_col2 {
-    text-align: left;
+    gap: 20px;
   }
 }
-@media (min-width: 1160px) {
+@media (min-width: 1200px) {
   .container {
     margin-block: 9% 15%;
   }
-
+  /* laver offset på containere */
   .container2 {
     clip-path: polygon(14px 29px, 98.64% 19.81%, 85.07% 79.02%, 51px 88.04%);
     padding-block-start: 23%;
@@ -91,7 +101,7 @@ article h2 {
     padding-bottom: 170px;
     transform: translateX(15%);
   }
-
+  /* laver offset på containere */
   .container3 {
     clip-path: polygon(
       13px 230px,
@@ -112,10 +122,4 @@ article h2 {
   #second {
     margin-top: -10%;
   }
-}
-
-body {
-  margin: 0 auto;
-
-  background: linear-gradient(45deg, rgb(180, 180, 180) 0%, rgb(148, 148, 148) 100%);
 }
