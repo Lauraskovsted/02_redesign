@@ -97,13 +97,14 @@ footer {
   display: grid;
   place-content: center center;
   width: 100%;
-  height: clamp(400px, 30vw, 70vh);
+  height: clamp(300px, 60vw, 120vh);
   background-image: url(/img/P1080707.JPG);
   max-width: none;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
+  margin-top: -5%;
 }
 
 .grid_1 {
@@ -131,7 +132,7 @@ cite {
 h1 {
   color: rgb(230, 169, 56);
   text-shadow: 2px 2px 4px #000000;
-  font-size: 5rem;
+  font-size: clamp(3rem, 8vw, 9rem);
   grid-column: 1 / span 3;
   grid-row: 2;
   display: grid;
@@ -185,15 +186,6 @@ p {
 }
 
 @media (min-width: 600px) {
-  #splash {
-    background-size: 100%;
-    width: auto;
-    height: 800px;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    place-content: center center;
-  }
   .grid_1,
   .grid_2 {
     background-color: hsla(242, 42%, 40%, 1);
@@ -212,10 +204,5 @@ p {
     padding-inline: 59px;
     clip-path: polygon(2.84% 37.54%, 93.86% 23.82%, 94.89% 90.46%, 0.87% 97.83%);
     margin-block-start: -27%;
-  }
-  .img1 {
-    background-size: cover;
-    max-width: 100%;
-    clip-path: polygon(2.93% 41.14%, 91.61% 28.38%, 94.75% 92.06%, 0.04% 100%);
   }
 }
