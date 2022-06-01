@@ -10,7 +10,7 @@
   display: grid;
   place-content: center center;
   width: 100%;
-  height: clamp(300px, 30vw, 70vh);
+  height: clamp(400px, 60vw, 90vh);
   background-image: url(/img/jachob.jpeg);
   max-width: none;
   background-size: cover;
