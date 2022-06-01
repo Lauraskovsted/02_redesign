@@ -216,7 +216,7 @@
     margin: 0;
     padding-block: 60px;
     margin-block-end: 50px;
-    clip-path: polygon(0 0, 100% 11%, 95% 90%, 3% 100%);
+    clip-path: polygon(0px 0px, 100% 11%, 94.54% 93.15%, 3% 100%);
     transform: translateX(-15%);
   }
 
