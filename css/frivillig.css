@@ -19,16 +19,10 @@
   border-bottom: 30px;
   margin-left: -264px;
   margin-right: -264px;
-  /* background-image: url(/svg/ide_02.svg);
-  background-repeat: no-repeat; /* Do not repeat the image */
-  /* background-size: cover;  */
   color: white;
   flex: 3;
   padding: 10px 250px 50px 250px;
   margin: 0px -264px 0px;
-  /* background-image: url(/svg/ide_02.svg);
-  background-repeat: no-repeat; /* Do not repeat the image */
-  /* background-size: cover; */
   color: white;
   /* clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%); */
 }
@@ -176,6 +170,13 @@ hr {
 
   .center {
     margin: 0px 40px;
+  }
+
+  #overskrift h1 {
+    font-size: 3rem;
+  }
+  cite {
+    font-size: 1.5rem;
   }
 }
 
