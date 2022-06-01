@@ -74,7 +74,7 @@
     background-image: url(/img/P1080584.JPG);
     grid-column: 1/2;
     grid-row: 1;
-    height: 300px;
+    height: 34vh;
     background-position: 0% 0%;
     background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
@@ -83,7 +83,7 @@
     background-image: url(/img/P1080584.JPG);
     grid-column: 2/3;
     grid-row: 1;
-    height: 300px;
+    height: 34vh;
     background-position: 50% 0%;
     background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 90%);
@@ -92,7 +92,7 @@
     background-image: url(/img/P1080584.JPG);
     grid-column: 3/4;
     grid-row: 1;
-    height: 300px;
+    height: 34vh;
     background-position: 100% 0%;
     background-size: 300%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
