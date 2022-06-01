@@ -195,6 +195,7 @@ p {
   }
   .grid_1,
   .grid_2 {
+    background-color: hsla(242, 42%, 40%, 1);
     display: grid;
     grid-template-columns: 1fr;
     padding-inline: 20px;
