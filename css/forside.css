@@ -160,7 +160,7 @@ p {
 
 /* Video */
 
-#video {
+video {
   width: 100%;
   display: block;
   opacity: 0.5;
@@ -176,8 +176,8 @@ p {
 }
 
 .video-player-button {
-  background: rgb(230, 169, 56);
-  color: #774e77;
+  background: hsla(242, 42%, 40%, 1);
+  color: rgb(230, 169, 56);
   border: none;
   font-size: 2.25rem;
   font-weight: 700;
@@ -192,6 +192,7 @@ p {
 
 .playing .video-player-button {
   background: rgb(230, 169, 56);
+  color: hsla(242, 42%, 40%, 1);
 }
 .img1 {
   max-width: 100%;
