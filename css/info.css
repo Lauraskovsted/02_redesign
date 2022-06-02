@@ -3,14 +3,14 @@
 .container2,
 .container3 {
   padding-block: 40px;
-  clip-path: padding-box polygon(0% 0%, 0% 97%, 100% 100%, 100% 3%);
+  clip-path: polygon(0% 0%, 0% 97%, 100% 100%, 100% 3%);
 }
 
 #overskrift {
   display: grid;
   place-content: center center;
   width: 100%;
-  height: clamp(400px, 60vw, 90vh);
+  height: clamp(400px, 60vw, 70vh);
   background-image: url(/img/jachob.jpeg);
   max-width: none;
   background-size: cover;
