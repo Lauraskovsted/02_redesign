@@ -97,6 +97,8 @@ footer {
   text-decoration: underline;
   color: #9100d0;
 }
+
+/* Splashbillede */
 #splash {
   display: grid;
   place-content: center center;
@@ -110,14 +112,14 @@ footer {
   clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
   margin-top: -5%;
 }
-
+/* Sideopsætning */
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
   margin: 0;
 }
-
+/* Typografi */
 p,
 h1,
 h2,
@@ -155,6 +157,9 @@ p {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
 }
+
+/* Video */
+
 #video {
   width: 100%;
   display: block;
