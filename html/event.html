@@ -7,10 +7,13 @@
     <title>Event</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/mutual_style.css" />
     <link rel="stylesheet" href="/css/event.css" />
-    <link rel="shortcut icon" href="/svg/logo3.svg" type="svg" />
+    <link rel="shortcut icon" href="/svg/logo3.svg" type="image/svg+xml" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
@@ -48,7 +51,15 @@
 
         // fill the first week of days
         for (var i = start_day; i < 8; i++) {
-          document.write("<div data-day='2022-" + indexMonth + "-0" + day + "'class='c-cal__cel'><p>" + day + "</p></div>");
+          document.write(
+            "<div data-day='2022-" +
+              indexMonth +
+              "-0" +
+              day +
+              "'class='c-cal__cel'><p>" +
+              day +
+              "</p></div>"
+          );
           day++;
         }
         document.write("</div>");
@@ -58,10 +69,26 @@
           document.write("<div class='c-cal__row'>");
           for (var i = 1; i <= 7 && day <= month_length; i++) {
             if (day >= 1 && day <= 9) {
-              document.write("<div data-day='2022-" + indexMonth + "-0" + day + "'class='c-cal__cel'><p>" + day + "</p></div>");
+              document.write(
+                "<div data-day='2022-" +
+                  indexMonth +
+                  "-0" +
+                  day +
+                  "'class='c-cal__cel'><p>" +
+                  day +
+                  "</p></div>"
+              );
               day++;
             } else {
-              document.write("<div data-day='2022-" + indexMonth + "-" + day + "' class='c-cal__cel'><p>" + day + "</p></div>");
+              document.write(
+                "<div data-day='2022-" +
+                  indexMonth +
+                  "-" +
+                  day +
+                  "' class='c-cal__cel'><p>" +
+                  day +
+                  "</p></div>"
+              );
               day++;
             }
           }
@@ -112,13 +139,21 @@
             <h3>sted</h3>
             <p>NKK Højvæg</p>
             <h3>Mere info</h3>
-            <p>Instruktør: K1 + K2 kursus, løber over 3 dage á 3 timer: d. 06/06 kl. 18:00-21:00, d. 07/06 kl 18:00-21:00 og d. 13/06 kl 18:00-21:00. Instruktør: Waldemar Arbirk</p>
+            <p>
+              Instruktør: K1 + K2 kursus, løber over 3 dage á 3 timer: d. 06/06 kl. 18:00-21:00, d.
+              07/06 kl 18:00-21:00 og d. 13/06 kl 18:00-21:00. Instruktør: Waldemar Arbirk
+            </p>
           </article>
         </div>
         <div class="flex_col_2">
           <div class="pris">610 KR</div>
           <img class="img1" src="/img/P1080661.JPG" alt="" />
-          <button class="salg" onclick="window.location.href='https://nkk.klub-modul.dk/cms/ProfileEventEnrollment.aspx?EventID=1140';">UDSOLGT - MELD DIG TIL VENTELISTE</button>
+          <button
+            class="salg"
+            onclick="window.location.href='https://nkk.klub-modul.dk/cms/ProfileEventEnrollment.aspx?EventID=1140';"
+          >
+            UDSOLGT - MELD DIG TIL VENTELISTE
+          </button>
         </div>
       </div>
       <h2 class="caption">Kalender</h2>
@@ -151,14 +186,16 @@
         <div class="c-calendar">
           <div class="c-calendar__style c-aside">
             <a class="c-add o-btn js-event__add" href="javascript:;">add event</a>
-          <div class="c-aside__day"><span class="c-aside__num"></span> <span class="c-aside__month"></span></div>
-          <div class="c-aside__eventList"></div>
-        </div>
+            <div class="c-aside__day">
+              <span class="c-aside__num"></span> <span class="c-aside__month"></span>
+            </div>
+            <div class="c-aside__eventList"></div>
+          </div>
           <div class="c-cal__container c-calendar__style">
             <script>
               // CAHNGE the below variable to the CURRENT YEAR
               year = 2022;
-  
+
               // first day of the week of the new year
               today = new Date("January 1, " + year);
               start_day = today.getDay() + 1;
