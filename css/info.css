@@ -1,5 +1,4 @@
 /* Header */
-
 .container2,
 .container3 {
   padding-block: 40px;
@@ -42,6 +41,16 @@ main {
   flex-direction: column;
 }
 
+/* åbningstider */
+.aabning,
+.aabning p,
+.aabning li {
+  text-align: center;
+  list-style: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Containere */
 .container2,
 .container3 {
   display: flex;
@@ -65,15 +74,7 @@ main {
   justify-content: space-around;
 }
 
-/* åbningstider */
-.aabning,
-.aabning p,
-.aabning li {
-  text-align: center;
-  list-style: none;
-  text-shadow: 2px 2px 4px #000000;
-}
-/* Skrift i fed i orange */
+/* Skrift i fed orange */
 strong {
   color: rgb(230, 169, 56) !important;
 }
