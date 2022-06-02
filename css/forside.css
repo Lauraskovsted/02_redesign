@@ -97,7 +97,7 @@ footer {
   display: grid;
   place-content: center center;
   width: 100%;
-  height: clamp(300px, 60vw, 120vh);
+  height: clamp(300px, 65vw, 125vh);
   background-image: url(/img/P1080707.webp);
   max-width: none;
   background-size: cover;
