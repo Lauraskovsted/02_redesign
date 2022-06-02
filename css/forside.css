@@ -164,7 +164,7 @@ p {
   width: 100%;
   display: block;
   opacity: 0.5;
-  clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0.55% 10%, 99.45% 3.75%, 97.79% 95.7%, 1.75% 93.16%);
   border-style: solid;
   border-width: 3px;
   border-color: bisque;
