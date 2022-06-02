@@ -134,13 +134,8 @@
     flex-wrap: wrap;
     width: fit-content;
   }
-  img,
-  .iframe {
-    input: valid;
-  }
+
   h1 {
-    color: rgb(230, 169, 56);
-    text-shadow: 2px 2px 4px #000000;
     font-size: 5rem;
     grid-column: 1 / span 3;
     grid-row: 2;
@@ -149,23 +144,17 @@
   }
 
   h2 {
-    color: rgb(230, 169, 56);
-    text-shadow: 2px 2px 4px #000000;
-    font-style: "Bebas Neue";
     font-size: 30px;
   }
   h3 {
-    color: rgb(230, 169, 56);
-    text-shadow: 2px 2px 4px #000000;
-    font-style: "Bebas Neue";
     font-size: 20px;
   }
   p {
     color: white;
-    text-shadow: 2px 2px 4px #000000;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
   }
+
   .img1 {
     background-image: url(/img/P1080584.JPG);
     background-size: 300%;
@@ -195,7 +184,7 @@
   }
   .img5 {
     background-image: url(/img/testimg.png);
-    background-image: cover;
+    background-size: cover;
     max-width: 275px;
     height: 570px;
     border: 5px rgb(230, 169, 56);
