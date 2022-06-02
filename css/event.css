@@ -21,6 +21,7 @@
     padding-left: 90px;
     color: rgb(230, 169, 56);
     text-shadow: 2px 2px 4px #000000;
+    font-style: italic;
 }
 
 .container {
@@ -82,11 +83,12 @@
     object-fit: cover;
 }
 
-cite h2 {
+article h2 {
     font-size: 40px;
     text-align: left;
     margin: 0;
     text-shadow: 2px 2px 4px #000000;
+    font-style: italic;
 }
 
 article {
