@@ -15,16 +15,10 @@
 .flex_container {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 250px 50px 250px;
   border-bottom: 30px;
-  margin-left: -264px;
-  margin-right: -264px;
   color: white;
   flex: 3;
-  padding: 10px 250px 50px 250px;
-  margin: 0px -264px 0px;
   color: white;
-  /* clip-path: polygon(0 100%, 0 0, 100% 0, 100% 85%); */
 }
 
 .flex_col {
@@ -53,7 +47,6 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10px;
-  /* color: white; */
 }
 
 .lilla {
@@ -94,10 +87,8 @@ hr {
   background-image: url(/svg/ide_02.svg);
   background-repeat: no-repeat;
   background-size: cover;
-
-  margin: 20px -264px 0px;
-  padding: 90px 250px 70px;
-
+  padding-top: 30px;
+  padding-bottom: 30px;
   color: white;
   clip-path: polygon(0 100%, 0 15%, 100% 0, 100% 100%);
 }
@@ -108,7 +99,6 @@ hr {
   .flex_container {
     display: flex;
     flex-direction: column;
-    clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
   }
 
   .flex_col {
@@ -149,7 +139,6 @@ hr {
   .flex_container {
     display: flex;
     flex-direction: column;
-    clip-path: polygon(0 100%, 0 0, 100% 0, 100% 90%);
   }
 
   .flex_col {
@@ -160,6 +149,7 @@ hr {
   .container {
     margin-top: 10px;
     clip-path: polygon(0 100%, 0 5%, 100% 0, 100% 100%);
+    padding-top: 60px;
   }
 
   .lilla {
