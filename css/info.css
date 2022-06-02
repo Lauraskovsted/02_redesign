@@ -11,10 +11,10 @@
   place-content: center center;
   width: 100%;
   height: clamp(400px, 60vw, 70vh);
-  background-image: url(/img/jachob.jpeg);
+  background-image: url(/img/P1080647.JPG);
   max-width: none;
   background-size: cover;
-  background-position: 50% 23%;
+  background-position: 50% 53%;
   color: rgb(230, 169, 56);
   text-shadow: 2px 2px 4px #000000;
 }
