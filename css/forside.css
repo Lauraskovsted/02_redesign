@@ -14,18 +14,21 @@ footer {
 #menu_toggle:checked + .menu_btn > span {
   transform: rotate(45deg);
   background-color: black;
+  box-shadow: unset;
 }
 
 #menu_toggle:checked + .menu_btn > span::before {
   top: 0;
   transform: rotate(0deg);
   background-color: black;
+  box-shadow: unset;
 }
 
 #menu_toggle:checked + .menu_btn > span::after {
   top: 0;
   transform: rotate(90deg);
   background-color: black;
+  box-shadow: unset;
 }
 
 #menu_toggle:checked ~ .menu_box {
@@ -49,7 +52,8 @@ footer {
   position: absolute;
   width: 100%;
   height: 4px;
-  background-color: white;
+  background-color: rgb(230, 169, 56);
+  box-shadow: 2px 2px 6px black;
   transition-duration: 0.25s;
 }
 
@@ -97,7 +101,7 @@ footer {
   display: grid;
   place-content: center center;
   width: 100%;
-  height: clamp(300px, 60vw, 120vh);
+  height: clamp(300px, 65vw, 125vh);
   background-image: url(/img/P1080707.webp);
   max-width: none;
   background-size: cover;

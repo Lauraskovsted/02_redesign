@@ -71,6 +71,7 @@ main {
 .aabning li {
   text-align: center;
   list-style: none;
+  text-shadow: 2px 2px 4px #000000;
 }
 /* Skrift i fed i orange */
 strong {
