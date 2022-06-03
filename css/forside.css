@@ -104,7 +104,7 @@ footer {
   place-content: center center;
   width: 100%;
   height: clamp(300px, 65vw, 125vh);
-  background-image: url(/img/P1080707.webp);
+  background-image: url(img/P1080707.webp);
   max-width: none;
   background-size: cover;
   background-repeat: no-repeat;
@@ -221,7 +221,12 @@ video {
     margin: 0;
     padding-block: 60px;
     padding-inline: 59px;
-    clip-path: polygon(2.84% 37.54%, 93.86% 23.82%, 94.89% 90.46%, 0.87% 97.83%);
+    clip-path: polygon(
+      2.84% 37.54%,
+      93.86% 23.82%,
+      94.89% 90.46%,
+      0.87% 97.83%
+    );
     margin-block-start: -20%;
   }
   .img1 {

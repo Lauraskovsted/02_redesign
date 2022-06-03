@@ -4,7 +4,7 @@
   display: grid;
   width: 100%;
   height: clamp(200px, 30vw, 70vh);
-  background-image: url(/img/P1080578.webp);
+  background-image: url(img/P1080578.webp);
   mask-image: linear-gradient(black, transparent);
   max-width: none;
   background-size: cover;
