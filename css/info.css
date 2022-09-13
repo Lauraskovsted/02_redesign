@@ -10,7 +10,7 @@
   place-content: center center;
   width: 100%;
   height: clamp(400px, 60vw, 70vh);
-  background-image: url(/img/P1080647.webp);
+  background-image: url(../img/P1080647.webp);
   max-width: none;
   background-size: cover;
   background-position: 50% 53%;

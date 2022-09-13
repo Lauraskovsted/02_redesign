@@ -71,7 +71,7 @@
     width: 100%;
   }
   .img1 {
-    background-image: url(/img/P1080584.webp);
+    background-image: url(../img/P1080584.webp);
     grid-column: 1/2;
     grid-row: 1;
     height: 34vh;
@@ -80,7 +80,7 @@
     clip-path: polygon(0px 0px, 100% 0%, 100% 90%, 0% 100%);
   }
   .img2 {
-    background-image: url(/img/P1080584.webp);
+    background-image: url(../img/P1080584.webp);
     grid-column: 2/3;
     grid-row: 1;
     height: 34vh;
@@ -89,7 +89,7 @@
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 90%);
   }
   .img3 {
-    background-image: url(/img/P1080584.webp);
+    background-image: url(../img/P1080584.webp);
     grid-column: 3/4;
     grid-row: 1;
     height: 34vh;
@@ -156,34 +156,34 @@
   }
 
   .img1 {
-    background-image: url(/img/P1080584.webp);
+    background-image: url(../img/P1080584.webp);
     background-size: 300%;
     background-position: 0% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 5% 87%);
     height: 70vh;
   }
   .img2 {
-    background-image: url(/img/P1080584.webp);
+    background-image: url(../img/P1080584.webp);
     background-size: 300%;
     background-position: 50% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 83%, 0% 100%);
     height: 70vh;
   }
   .img3 {
-    background-image: url(/img/P1080584.webp);
+    background-image: url(../img/P1080584.webp);
     background-size: 300%;
     background-position: 100% 0%;
     clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% 83%);
     height: 70vh;
   }
   .img4 {
-    background-image: url(/img/testimg.png);
+    background-image: url(img/testimg.png);
     max-width: 495px;
     border: 5px rgb(230, 169, 56);
     border-style: solid;
   }
   .img5 {
-    background-image: url(/img/testimg.png);
+    background-image: url(img/testimg.png);
     background-size: cover;
     max-width: 275px;
     height: 570px;
@@ -205,7 +205,7 @@
   }
 
   .container2 {
-    background-image: url(/img/P1080515.webp);
+    background-image: url(img/P1080515.webp);
     background-size: cover;
     margin: 0;
     padding-block: 60px;
@@ -264,16 +264,26 @@
   .img6 {
     background-size: cover;
     width: 100%;
-    clip-path: polygon(0.66% 0.57%, 94.75% 11.51%, 100.14% 90.77%, -0.01% 97.98%);
+    clip-path: polygon(
+      0.66% 0.57%,
+      94.75% 11.51%,
+      100.14% 90.77%,
+      -0.01% 97.98%
+    );
   }
   .img9 {
     background-size: cover;
     width: 100%;
-    clip-path: polygon(-0.13% 20.38%, 99.91% 8.17%, 98.29% 84.32%, 5.17% 81.89%);
+    clip-path: polygon(
+      -0.13% 20.38%,
+      99.91% 8.17%,
+      98.29% 84.32%,
+      5.17% 81.89%
+    );
   }
 
   .container5 {
-    background-image: url(/img/P1080560.webp);
+    background-image: url(img/P1080560.webp);
     background-size: cover;
     display: flex;
     margin: 0;
